@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_ruins",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":320,
+  "compression":3,
+  "conversionMode":0,
+  "duration":91.31393,
+  "name":"mus_ruins",
+  "parent":{
+    "name":"Musics",
+    "path":"folders/Musics.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_ruins.ogg",
+  "type":1,
+  "volume":1.0,
+}

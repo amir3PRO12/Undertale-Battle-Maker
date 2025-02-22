@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_snowdin_sans_following_you",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":1.830023,
+  "name":"mus_snowdin_sans_following_you",
+  "parent":{
+    "name":"Musics",
+    "path":"folders/Musics.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_snowdin_sans_following_you.ogg",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"til_snowdin",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"til_snowdin",
+  "out_columns":22,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Snowdin",
+    "path":"folders/Tile Sets/Snowdin.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_snowdin",
+    "path":"sprites/spr_snowdin/spr_snowdin.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":20,
+  "tilehsep":1,
+  "tilevsep":1,
+  "tileWidth":20,
+  "tilexoff":1,
+  "tileyoff":1,
+  "tile_count":476,
+}

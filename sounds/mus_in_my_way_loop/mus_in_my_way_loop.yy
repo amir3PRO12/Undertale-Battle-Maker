@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":320,
-  "compression":3,
+  "compression":2,
   "conversionMode":0,
   "duration":41.942314,
   "name":"mus_in_my_way_loop",

@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":3,
+  "compression":2,
   "conversionMode":0,
   "duration":50.028843,
   "name":"mus_toomuch",

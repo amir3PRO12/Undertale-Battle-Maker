@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":320,
-  "compression":3,
+  "compression":2,
   "conversionMode":0,
   "duration":18.125011,
   "name":"mus_dog_shrine_2",

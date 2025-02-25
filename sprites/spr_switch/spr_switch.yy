@@ -28,7 +28,7 @@
   "origin":4,
   "parent":{
     "name":"Ruins_Sprite_Objects",
-    "path":"folders/Sprites/Ruins/Ruins_Sprite_Objects.yy",
+    "path":"folders/Sprites/Overworld/Ruins/Ruins_Sprite_Objects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":320,
-  "compression":3,
+  "compression":2,
   "conversionMode":0,
   "duration":76.02213,
   "name":"mus_toriel_basement",

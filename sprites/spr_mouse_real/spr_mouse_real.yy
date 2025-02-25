@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"Ruins_NPCs",
-    "path":"folders/Sprites/NPCs/Ruins_NPCs.yy",
+    "path":"folders/Sprites/Overworld/Ruins/Ruins_NPCs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

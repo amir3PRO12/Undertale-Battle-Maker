@@ -9,7 +9,10 @@
     "name":"Tile_Puzzle",
     "path":"folders/Objects/Tile_Puzzle.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_object_handler",
+    "path":"objects/obj_object_handler/obj_object_handler.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

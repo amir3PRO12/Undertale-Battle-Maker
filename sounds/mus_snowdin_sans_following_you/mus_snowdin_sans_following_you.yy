@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":3,
+  "compression":2,
   "conversionMode":0,
   "duration":1.830023,
   "name":"mus_snowdin_sans_following_you",

@@ -35,5 +35,5 @@
     "path":"sprites/spr_interaction_block/spr_interaction_block.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"Waterfall_Objects",
-    "path":"folders/Sprites/Waterfall/Waterfall_Objects.yy",
+    "path":"folders/Sprites/Overworld/Waterfall/Waterfall_Objects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

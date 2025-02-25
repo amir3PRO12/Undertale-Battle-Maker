@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_player_stop",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_player_stop",
   "overriddenProperties":[],
@@ -32,5 +34,5 @@
     "path":"sprites/spr_player_stop/spr_player_stop.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

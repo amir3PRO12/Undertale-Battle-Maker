@@ -1,1 +1,1 @@
-disappear = false;
+npc_disappear = false;

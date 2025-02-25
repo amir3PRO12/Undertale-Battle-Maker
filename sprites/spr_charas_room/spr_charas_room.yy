@@ -27,7 +27,7 @@
   "origin":4,
   "parent":{
     "name":"Ruins_Home",
-    "path":"folders/Sprites/Ruins/Ruins_Home/Ruins_Home.yy",
+    "path":"folders/Sprites/Overworld/Ruins/Ruins_Home/Ruins_Home.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

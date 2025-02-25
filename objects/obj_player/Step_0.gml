@@ -126,6 +126,15 @@ if can_move_in_npcs == false{
 	}
 }
 
+if can_move_in_object == false{
+	if place_meeting(x + xspd, y, obj_object_handler){
+		xspd = 0;
+	}
+	if place_meeting(x, y + yspd, obj_object_handler){
+		yspd = 0;
+	}
+}
+
 //Collisions With Ice.
 if place_meeting(x + xspd, y, obj_ice_sliding){
 	can_move_in_ice = true;

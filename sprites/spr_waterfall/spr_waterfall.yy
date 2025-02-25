@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Waterfall_TileSets",
-    "path":"folders/Sprites/Waterfall/Waterfall_TileSets.yy",
+    "path":"folders/Sprites/Overworld/Waterfall/Waterfall_TileSets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

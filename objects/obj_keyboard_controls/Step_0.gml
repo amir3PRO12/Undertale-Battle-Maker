@@ -12,21 +12,19 @@ if (keyboard_check_pressed(vk_f3) and Debug_Mode == false){
 	Debug_Mode = false;
 }
 
-if (debug_mode){
-	Debug_Mode = true;	
-}
-
-
 if Debug_Mode == true{
 	show_debug_log(true);
+	audio_debug(true);
 	object_set_visible(obj_wall, true);
 	object_set_visible(obj_sticky_wall, true);
 	object_set_visible(obj_warp, true);
 	obj_mouse.visible = false;
 	obj_player.can_move_in_walls = true;
-	obj_npc_handler.disappear = true;
+	obj_npc_handler.npc_disappear = true;
 	obj_player.can_move_in_npcs = true;
 	obj_player.can_move_in_ice = true;
+	obj_player.can_move_in_object = true;
+	obj_object_handler.object_disappear = true;
 	window_set_cursor(cr_arrow);
 	object_set_visible(obj_keyboard_controls, true);
 	object_set_visible(obj_music_handler, true);
@@ -36,14 +34,17 @@ if Debug_Mode == true{
 	object_set_visible(obj_object_handler, true);
 } else if Debug_Mode == false{
 	show_debug_log(false);
+	audio_debug(false);
 	object_set_visible(obj_wall, false);
 	object_set_visible(obj_sticky_wall, false);
 	object_set_visible(obj_warp, false);
 	obj_mouse.visible = true;
 	obj_player.can_move_in_walls = false;
-	obj_npc_handler.disappear = false;
+	obj_npc_handler.npc_disappear = false;
 	obj_player.can_move_in_npcs = false;
 	obj_player.can_move_in_ice = false;
+	obj_player.can_move_in_object = false;
+	obj_object_handler.object_disappear = false;
 	window_set_cursor(cr_none);
 	object_set_visible(obj_keyboard_controls, false);
 	object_set_visible(obj_music_handler, false);

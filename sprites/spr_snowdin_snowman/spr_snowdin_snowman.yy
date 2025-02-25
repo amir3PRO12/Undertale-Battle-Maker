@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"Snowdin_NPCs",
-    "path":"folders/Sprites/Snowdin/Snowdin_NPCs.yy",
+    "path":"folders/Sprites/Overworld/Snowdin/Snowdin_NPCs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

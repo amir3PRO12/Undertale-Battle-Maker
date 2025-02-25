@@ -34,7 +34,7 @@
   "origin":0,
   "parent":{
     "name":"Snowdin_Trees_Part",
-    "path":"folders/Sprites/Snowdin/Snowdin_Trees_Part.yy",
+    "path":"folders/Sprites/Overworld/Snowdin/Snowdin_Trees_Part.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

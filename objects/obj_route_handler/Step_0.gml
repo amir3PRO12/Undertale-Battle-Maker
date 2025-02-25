@@ -5,17 +5,21 @@ switch(room){
 //Ruins Entrance!
 case rm_ruins_entrance:
 case rm_ruins_entrance_1:
-if Ruins_Genocide == true{
-	obj_npc_handler.disappear = true;
+if global.Ruins_Genocide == true{
+	obj_npc_handler.npc_disappear = true;
+	obj_object_handler.object_disappear = true;
 	
-}else if Ruins_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_True_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_True_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_Neutral == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Neutral == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
 }
 break
@@ -49,17 +53,21 @@ case rm_ruins_24:
 case rm_ruins_25:
 case rm_ruins_26:
 case rm_ruins_27:
-if Ruins_Genocide == true{
-	obj_npc_handler.disappear = true;
+if global.Ruins_Genocide == true{
+	obj_npc_handler.npc_disappear = true;
+	obj_object_handler.object_disappear = true;
 	
-}else if Ruins_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_True_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_True_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_Neutral == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Neutral == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
 }
 break
@@ -70,68 +78,85 @@ case rm_ruins_29:
 case rm_ruins_30:
 case rm_ruins_31:
 case rm_ruins_33:
-if Ruins_Genocide == true{
-	obj_npc_handler.disappear = true;
+if global.Ruins_Genocide == true{
+	obj_npc_handler.npc_disappear = true;
+	obj_object_handler.object_disappear = true;
 	
-}else if Ruins_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_True_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_True_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_Neutral == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Neutral == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
 }
 break
 //Ruins Home, Your Room!
 case rm_ruins_32:
-if Ruins_Genocide == true{
-	obj_npc_handler.disappear = true;
+if global.Ruins_Genocide == true{
+	obj_npc_handler.npc_disappear = true;
+	obj_object_handler.object_disappear = true;
 	
-}else if Ruins_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_True_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_True_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_Neutral == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Neutral == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
 }
 
 break
+
 //Ruins Toriel's Basement I think...??
 case rm_ruins_34:
 case rm_ruins_35:
 case rm_ruins_36:
-if Ruins_Genocide == true{
-	obj_npc_handler.disappear = true;
+if global.Ruins_Genocide == true{
+	obj_npc_handler.npc_disappear = true;
+	obj_object_handler.object_disappear = true;
 	
-}else if Ruins_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_True_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_True_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_Neutral == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Neutral == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
 }
 break
 //Ruins Toriel's Basement Fighting Area!!
 case rm_ruins_37:
-if Ruins_Genocide == true{
-	obj_npc_handler.disappear = true;
+if global.Ruins_Genocide == true{
+	obj_npc_handler.npc_disappear = true;
+	obj_object_handler.object_disappear = true;
 	
-}else if Ruins_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_True_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_True_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_Neutral == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Neutral == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
 }
 
@@ -140,34 +165,42 @@ break
 //The End Of The Ruins.
 case rm_ruins_38:
 case rm_ruins_39:
-if Ruins_Genocide == true{
-	obj_npc_handler.disappear = true;
+if global.Ruins_Genocide == true{
+	obj_npc_handler.npc_disappear = true;
+	obj_object_handler.object_disappear = true;
 	
-}else if Ruins_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_True_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_True_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_Neutral == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Neutral == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
 }
 
 break
 //Ruins Temmie Room!!
 case rm_ruins_40:
-if Ruins_Genocide == true{
-	obj_npc_handler.disappear = true;
+if global.Ruins_Genocide == true{
+	obj_npc_handler.npc_disappear = true;
+	obj_object_handler.object_disappear = true;
 	
-}else if Ruins_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_True_Pacifist == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_True_Pacifist == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
-}else if Ruins_Neutral == true{
-	obj_npc_handler.disappear = false;
+}else if global.Ruins_Neutral == true{
+	obj_npc_handler.npc_disappear = false;
+	obj_object_handler.object_disappear = false;
 	
 }
 
@@ -177,7 +210,27 @@ break
 	
 //Snowdin
 switch(room){
+	//Snowdin Entrance
 	case rm_snowdin_entrance:
+	if global.Snowdin_Genocide == true{
+		obj_object_handler.object_disappear = true;
+		obj_npc_handler.npc_disappear = true;
+	
+	}else if global.Snowdin_Pacifist == true{
+		obj_object_handler.object_disappear = false;
+		obj_npc_handler.npc_disappear = false;
+	
+	}else if global.Snowdin_True_Pacifist == true{
+		obj_object_handler.object_disappear = false;
+		obj_npc_handler.npc_disappear = false;
+	
+	}else if global.Snowdin_Neutral == true{
+		obj_object_handler.object_disappear = false;
+		obj_npc_handler.npc_disappear = false;
+	
+	}
+break
+	
 	case rm_snowdin_1:
 	case rm_snowdin_2:
 	case rm_snowdin_3:
@@ -211,4 +264,33 @@ switch(room){
 	case rm_snowdin_31:
 	case rm_snowdin_32:
 	case rm_snowdin_33:
+	case rm_snowdin_34_work_on_progress:
+	case rm_snowdin_35:
+	case rm_snowdin_36:
+	case rm_snowdin_37:
+	case rm_snowdin_38:
+	case rm_snowdin_39:
+	case rm_snowdin_40:
+	case rm_snowdin_41:
+	case rm_snowdin_42:
+	case rm_snowdin_43:
+	case rm_snowdin_44:
+	if global.Snowdin_Genocide == true{
+		obj_object_handler.object_disappear = true;
+		obj_npc_handler.npc_disappear = true;
+	
+	}else if global.Snowdin_Pacifist == true{
+		obj_object_handler.object_disappear = false;
+		obj_npc_handler.npc_disappear = false;
+	
+	}else if global.Snowdin_True_Pacifist == true{
+		obj_object_handler.object_disappear = false;
+		obj_npc_handler.npc_disappear = false;
+	
+	}else if global.Snowdin_Neutral == true{
+		obj_object_handler.object_disappear = false;
+		obj_npc_handler.npc_disappear = false;
+	
+	}
+break
 }

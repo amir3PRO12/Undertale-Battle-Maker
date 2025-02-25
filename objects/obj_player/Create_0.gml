@@ -51,6 +51,9 @@ can_move_in_npcs = false;
 //Move In Ice Wall(Sliding In Ice.)
 can_move_in_ice = false;
 
+//Move In Objects Like Save Stars Or Chests
+can_move_in_object = false;
+
 
 //Player/Frisk/Chara Stats
 PLAYER_ID = 0;

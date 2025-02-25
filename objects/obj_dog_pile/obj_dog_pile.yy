@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_dog_pile",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_dog_pile",
   "overriddenProperties":[],
@@ -10,8 +12,8 @@
     "path":"folders/Objects/Snowdin/Snowdin_Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_wall",
-    "path":"objects/obj_wall/obj_wall.yy",
+    "name":"obj_object_handler",
+    "path":"objects/obj_object_handler/obj_object_handler.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

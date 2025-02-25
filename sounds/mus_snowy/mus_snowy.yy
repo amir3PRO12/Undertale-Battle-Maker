@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":3,
+  "compression":2,
   "conversionMode":0,
   "duration":102.302765,
   "name":"mus_snowy",

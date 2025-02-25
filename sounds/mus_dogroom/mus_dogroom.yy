@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":3,
+  "compression":2,
   "conversionMode":0,
   "duration":35.999638,
   "name":"mus_dogroom",

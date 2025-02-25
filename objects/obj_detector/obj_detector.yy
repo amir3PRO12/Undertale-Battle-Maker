@@ -35,5 +35,5 @@
     "path":"sprites/spr_detector/spr_detector.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

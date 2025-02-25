@@ -44,7 +44,7 @@
   "origin":4,
   "parent":{
     "name":"Tile_Puzzle",
-    "path":"folders/Sprites/Snowdin/Tile_Puzzle.yy",
+    "path":"folders/Sprites/Overworld/Snowdin/Tile_Puzzle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

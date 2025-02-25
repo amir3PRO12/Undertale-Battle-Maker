@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Snowdin_TileSet",
-    "path":"folders/Sprites/Snowdin/Snowdin_TileSet.yy",
+    "path":"folders/Sprites/Overworld/Snowdin/Snowdin_TileSet.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

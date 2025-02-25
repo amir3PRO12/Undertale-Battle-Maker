@@ -1,0 +1,1 @@
+/// @description The Whole Point Of This Object Is To Make The Player Stop When Going Into A Different Room And The Fade in/Fade Out Animation Starts/Stops.

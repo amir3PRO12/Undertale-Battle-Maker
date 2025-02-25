@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":320,
-  "compression":3,
+  "compression":2,
   "conversionMode":0,
   "duration":89.81769,
   "name":"mus_in_my_way",

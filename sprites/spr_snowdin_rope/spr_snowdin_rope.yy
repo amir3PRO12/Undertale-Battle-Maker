@@ -37,7 +37,7 @@
   "origin":4,
   "parent":{
     "name":"Snowdin_Objects",
-    "path":"folders/Sprites/Snowdin/Snowdin_Objects.yy",
+    "path":"folders/Sprites/Overworld/Snowdin/Snowdin_Objects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

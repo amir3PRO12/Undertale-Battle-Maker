@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Napstablook",
-    "path":"folders/Sprites/NPCs/Ruins_NPCs/Napstablook.yy",
+    "path":"folders/Sprites/Overworld/Ruins/Ruins_NPCs/Napstablook.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

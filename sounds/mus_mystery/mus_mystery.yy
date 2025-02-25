@@ -7,9 +7,9 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":3,
+  "compression":2,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":42.987392,
   "name":"mus_mystery",
   "parent":{
     "name":"Musics",

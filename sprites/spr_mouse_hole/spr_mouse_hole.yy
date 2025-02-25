@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Ruins_Mouse_Hole",
-    "path":"folders/Sprites/Ruins/Ruins_Mouse_Hole.yy",
+    "path":"folders/Sprites/Overworld/Ruins/Ruins_Mouse_Hole.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

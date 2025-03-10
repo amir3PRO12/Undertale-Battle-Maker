@@ -10,8 +10,8 @@
     "path":"folders/Objects/Save.yy",
   },
   "parentObjectId":{
-    "name":"obj_object_handler",
-    "path":"objects/obj_object_handler/obj_object_handler.yy",
+    "name":"obj_object_main_parent",
+    "path":"objects/obj_object_main_parent/obj_object_main_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

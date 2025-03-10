@@ -9,7 +9,10 @@
     "name":"Snowdin_NPCs",
     "path":"folders/Objects/Snowdin/Snowdin_NPCs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_npcs_snowdin_parent",
+    "path":"objects/obj_npcs_snowdin_parent/obj_npcs_snowdin_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

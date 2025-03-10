@@ -10,8 +10,8 @@
     "path":"folders/Objects/Ruins/Ruins_Home.yy",
   },
   "parentObjectId":{
-    "name":"obj_wall",
-    "path":"objects/obj_wall/obj_wall.yy",
+    "name":"obj_object_ruins_parent",
+    "path":"objects/obj_object_ruins_parent/obj_object_ruins_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

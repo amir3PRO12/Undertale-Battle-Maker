@@ -87,12 +87,84 @@ if xspd == 0 and yspd == 0{
 }
 
 //Collisions With Walls.
-if can_move_in_walls == false{
+if global.can_move_in_walls == false{
 	if place_meeting(x + xspd, y, [obj_wall, obj_t_wall]){
 		xspd = 0;
 	}
 	if place_meeting(x, y + yspd, [obj_wall, obj_t_wall]){
 		yspd = 0;	
+	}
+}
+
+//Collisions with Ruins NPCs
+if global.can_move_in_ruins_npcs == false{
+	if place_meeting(x + xspd, y, [obj_npcs_ruins_parent]){
+		xspd = 0;
+	}
+}
+if global.can_move_in_ruins_npcs == false{
+	if place_meeting(x, y + yspd, [obj_npcs_ruins_parent]){
+		yspd = 0;
+	}
+}
+
+//Collisions with Snowdin NPCs
+if global.can_move_in_snowdin_npcs == false{
+	if place_meeting(x + xspd, y, [obj_npcs_snowdin_parent]){
+		xspd = 0;
+	}
+}
+if global.can_move_in_snowdin_npcs == false{
+	if place_meeting(x, y + yspd, [obj_npcs_snowdin_parent]){
+		yspd = 0;
+	}
+}
+
+//Collisions With Ruins Objects.
+if global.can_move_in_ruins_object == false{
+	if place_meeting(x + xspd, y, [obj_object_ruins_parent]){
+		xspd = 0;
+	}
+}
+if global.can_move_in_ruins_object == false{
+	if place_meeting(x, y + yspd, [obj_object_ruins_parent]){
+		yspd = 0;
+	}
+}
+
+//Collisions With Snowdin Objects.
+if global.can_move_in_snowdin_object == false{
+	if place_meeting(x + xspd, y, [obj_object_snowdin_parent]){
+		xspd = 0;
+	}
+}
+if global.can_move_in_snowdin_object == false{
+	if place_meeting(x, y + yspd, [obj_object_snowdin_parent]){
+		yspd = 0;
+	}
+}
+
+//can move in MAIN objects
+if global.can_move_in_main_objects == false{
+	if place_meeting(x + xspd, y, [obj_object_main_parent]){
+		xspd = 0;
+	}
+}
+if global.can_move_in_main_objects == false{
+	if place_meeting(x, y + yspd, [obj_object_main_parent]){
+		yspd = 0;
+	}
+}
+
+//can move in MAIN NPCs
+if global.can_move_in_main_npcs == false{
+	if place_meeting(x + xspd, y, [obj_npcs_main_parent]){
+		xspd = 0;
+	}
+}
+if global.can_move_in_main_npcs == false{
+	if place_meeting(x, y + yspd, [obj_npcs_main_parent]){
+		yspd = 0;
 	}
 }
 
@@ -113,25 +185,6 @@ if place_meeting(x, y + yspd, obj_sticky_wall){
 		move_spd = 1	
 	}else if move_spd = 1{
 		move_spd = 0.5	
-	}
-}
-
-//Collisions With NPCs.
-if can_move_in_npcs == false{
-	if place_meeting(x + xspd, y, obj_npc_handler){
-		xspd = 0;
-	}
-	if place_meeting(x, y + yspd, obj_npc_handler){
-		yspd = 0;
-	}
-}
-
-if can_move_in_object == false{
-	if place_meeting(x + xspd, y, obj_object_handler){
-		xspd = 0;
-	}
-	if place_meeting(x, y + yspd, obj_object_handler){
-		yspd = 0;
 	}
 }
 

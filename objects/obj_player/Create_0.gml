@@ -42,17 +42,29 @@ mouse_move_spd = 0;
 xspdmouse = 0;
 yspdmouse = 0;
 
-//Move In The Walls Or Not
-can_move_in_walls = false;
+//Main Objects
+global.can_move_in_main_objects = false;
 
-//Move In NPCs Or Not
-can_move_in_npcs = false;
+//Main NPCs
+global.can_move_in_main_npcs = false;
+
+//Move In The Walls Or Not
+global.can_move_in_walls = false;
+
+//Move In Ruins NPCs Or Not
+global.can_move_in_ruins_npcs = false;
+
+//Move In Snowdin NPCs Or Not
+global.can_move_in_snowdin_npcs = false;
 
 //Move In Ice Wall(Sliding In Ice.)
 can_move_in_ice = false;
 
-//Move In Objects Like Save Stars Or Chests
-can_move_in_object = false;
+//Move In Ruins Objects or not.
+global.can_move_in_ruins_object = false;
+
+//Move In Snowdin Objects or not.
+global.can_move_in_snowdin_object = false;
 
 
 //Player/Frisk/Chara Stats

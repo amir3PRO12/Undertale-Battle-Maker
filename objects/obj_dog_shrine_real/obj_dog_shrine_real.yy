@@ -9,10 +9,7 @@
     "name":"Snowdin_Objects",
     "path":"folders/Objects/Snowdin/Snowdin_Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_object_handler",
-    "path":"objects/obj_object_handler/obj_object_handler.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

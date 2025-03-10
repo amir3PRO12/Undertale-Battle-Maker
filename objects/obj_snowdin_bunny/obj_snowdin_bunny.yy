@@ -12,8 +12,8 @@
     "path":"folders/Objects/Snowdin/Snowdin_NPCs.yy",
   },
   "parentObjectId":{
-    "name":"obj_npc_handler",
-    "path":"objects/obj_npc_handler/obj_npc_handler.yy",
+    "name":"obj_npcs_snowdin_parent",
+    "path":"objects/obj_npcs_snowdin_parent/obj_npcs_snowdin_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

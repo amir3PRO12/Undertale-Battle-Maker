@@ -1,7 +1,7 @@
 //Musics In Different Rooms
-room_track_change(room)
 
-/*
+
+
 //Ruins
 switch(room){
 //Ruins Entrance!

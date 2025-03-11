@@ -9,10 +9,7 @@
     "name":"NPCs Data",
     "path":"folders/Objects/Data/NPCs Data.yy",
   },
-  "parentObjectId":{
-    "name":"obj_npcs_parent",
-    "path":"objects/obj_npcs_parent/obj_npcs_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

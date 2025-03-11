@@ -9,10 +9,7 @@
     "name":"Objects Data",
     "path":"folders/Objects/Data/Objects Data.yy",
   },
-  "parentObjectId":{
-    "name":"obj_object_parent",
-    "path":"objects/obj_object_parent/obj_object_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

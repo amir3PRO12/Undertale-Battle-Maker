@@ -96,18 +96,25 @@ if global.can_move_in_walls == false{
 	}
 }
 
-//Collisions with Ruins NPCs
-if global.can_move_in_ruins_npcs == false{
-	if place_meeting(x + xspd, y, [obj_npcs_ruins_parent]){
-		xspd = 0;
+//Collisions with NPCs & Objects
+if global.can_move_in_hideables == false{
+	if place_meeting(x + xspd, y, [obj_hideable]){
+		var _collided = collision_point(x + xspd, y, [obj_hideable], true, true)
+		if _collided && _collided.visible {
+			xspd = 0;
+		}
 	}
 }
-if global.can_move_in_ruins_npcs == false{
-	if place_meeting(x, y + yspd, [obj_npcs_ruins_parent]){
-		yspd = 0;
+if global.can_move_in_hideables == false{
+	if place_meeting(x, y + yspd, [obj_hideable]){
+		var _collided = collision_point(x, y + yspd, [obj_hideable], true, true)
+		if _collided && _collided.visible {
+			yspd = 0;
+		}
 	}
 }
 
+/*
 //Collisions with Snowdin NPCs
 if global.can_move_in_snowdin_npcs == false{
 	if place_meeting(x + xspd, y, [obj_npcs_snowdin_parent]){
@@ -167,7 +174,7 @@ if global.can_move_in_main_npcs == false{
 		yspd = 0;
 	}
 }
-
+*/
 //Collisions With Sticky Objects.
 if place_meeting(x + xspd, y, obj_sticky_wall){
 	if move_spd == 3{
@@ -224,6 +231,7 @@ if (keyboard_check(ord("X")) or keyboard_check(vk_shift) or keyboard_check(vk_ls
 	move_spd = 2;
 }
 
+/* Let's not LV up EVERY STEP
 //LVing UP
 HP = MAX_HP; 
 MAX_HP = 20 + (LV - 1) * 4; //If MAX_HP is 20 and your LV is 2, it turns your MAX_HP to 24... yeah... um... idk math...

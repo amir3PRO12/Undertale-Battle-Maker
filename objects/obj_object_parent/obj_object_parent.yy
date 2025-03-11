@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_table",
+  "%Name":"obj_object_parent",
   "eventList":[],
   "managed":true,
-  "name":"obj_table",
+  "name":"obj_object_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ruins_Home",
-    "path":"folders/Objects/Ruins/Ruins_Home.yy",
+    "name":"Objects Data",
+    "path":"folders/Objects/Data/Objects Data.yy",
   },
   "parentObjectId":{
-    "name":"obj_object_ruins_parent",
-    "path":"objects/obj_object_ruins_parent/obj_object_ruins_parent.yy",
+    "name":"obj_hideable",
+    "path":"objects/obj_hideable/obj_hideable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_table",
-    "path":"sprites/spr_table/spr_table.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

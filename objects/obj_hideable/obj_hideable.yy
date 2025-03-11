@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_table",
-  "eventList":[],
+  "%Name":"obj_hideable",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_table",
+  "name":"obj_hideable",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ruins_Home",
-    "path":"folders/Objects/Ruins/Ruins_Home.yy",
+    "name":"Objects Data",
+    "path":"folders/Objects/Data/Objects Data.yy",
   },
-  "parentObjectId":{
-    "name":"obj_object_ruins_parent",
-    "path":"objects/obj_object_ruins_parent/obj_object_ruins_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_table",
-    "path":"sprites/spr_table/spr_table.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

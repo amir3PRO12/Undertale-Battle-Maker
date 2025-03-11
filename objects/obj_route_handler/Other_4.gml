@@ -1,3 +1,5 @@
+route_room_change(room)
+/*
 //Ruins
 switch(room){
 	//Ruins Entrance!
@@ -6,8 +8,10 @@ switch(room){
 			
 			
 			//NPCs Visible or not.
-			object_set_visible(obj_npcs_main_parent, false);
-			object_set_visible(obj_npcs_ruins_parent, false);
+			//object_set_visible(obj_npcs_main_parent, false);
+			with (obj_npcs_ruins_parent) {
+				visible = false;	
+			}
 			
 			//Objects Visible or not.
 			object_set_visible(obj_object_main_parent, false);
@@ -118,7 +122,28 @@ switch(room){
 	case rm_ruins_24:
 	case rm_ruins_25:
 	case rm_ruins_26:
-	case rm_ruins_27:
+	case rm_ruins_27: 
+		if global.Ruins_Genocide = true{
+			
+			
+			//NPCs Visible or not.
+			object_set_visible(obj_npcs_main_parent, false);
+			with (obj_npcs_ruins_parent) {
+				visible = false;	
+			}
+			
+			//Objects Visible or not.
+			object_set_visible(obj_object_main_parent, false);
+			object_set_visible(obj_object_ruins_parent, false);
+			
+			//NPCs has hitbox or not.
+			global.can_move_in_main_npcs = true;
+			global.can_move_in_ruins_npcs = true;
+			
+			//Objects has hitbox or not.
+			global.can_move_in_main_objects = false;
+			global.can_move_in_ruins_object = true;
+		}
 	//Ruins Home.
 	case rm_ruins_28:
 	case rm_ruins_29:
@@ -307,3 +332,4 @@ switch(room){
 		}
 	break
 }
+*/

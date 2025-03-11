@@ -14,16 +14,20 @@ if (keyboard_check_pressed(vk_f3) and Debug_Mode == false){
 
 if Debug_Mode == true{
 	show_debug_log(true);
-	audio_debug(true);
 	object_set_visible(obj_wall, true);
 	object_set_visible(obj_sticky_wall, true);
 	object_set_visible(obj_warp, true);
 	object_set_visible(obj_mouse, false);
+	
+	global.can_move_in_walls = true;
+	global.can_move_in_hideables = true;
+	/*
 	global.can_move_in_main_objects = true;
 	global.can_move_in_main_npcs = true;
-	global.can_move_in_walls = true;
+	
 	global.can_move_in_npcs = true;
 	global.can_move_in_object = true;
+	*/
 	window_set_cursor(cr_arrow);
 	object_set_visible(obj_keyboard_controls, true);
 	object_set_visible(obj_music_handler, true);
@@ -33,7 +37,6 @@ if Debug_Mode == true{
 	object_set_visible(obj_object_handler, true);
 } else if Debug_Mode == false{
 	show_debug_log(false);
-	audio_debug(false);
 	object_set_visible(obj_wall, false);
 	object_set_visible(obj_sticky_wall, false);
 	object_set_visible(obj_warp, false);

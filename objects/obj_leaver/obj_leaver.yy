@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npcs_parent",
+  "%Name":"obj_leaver",
   "eventList":[],
   "managed":true,
-  "name":"obj_npcs_parent",
+  "name":"obj_leaver",
   "overriddenProperties":[],
   "parent":{
-    "name":"NPCs Data",
-    "path":"folders/Objects/Data/NPCs Data.yy",
+    "name":"Ruins_Object",
+    "path":"folders/Objects/Ruins/Ruins_Object.yy",
   },
-  "parentObjectId":{
-    "name":"obj_hideable",
-    "path":"objects/obj_hideable/obj_hideable.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_leaver",
+    "path":"sprites/spr_leaver/spr_leaver.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

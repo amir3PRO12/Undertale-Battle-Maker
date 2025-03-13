@@ -63,3 +63,8 @@ if (keyboard_check_pressed(vk_f11) or keyboard_check_pressed(vk_f4)){
 		window_set_fullscreen(true);	
 	}
 }
+
+if(keyboard_check_pressed(ord("L")))
+{
+	room_goto(rm_snowdin_37);
+}

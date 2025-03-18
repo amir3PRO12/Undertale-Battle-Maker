@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_card_game_or_whatever_idk_i_never_see_a_casino_or_whatever_the_name_is",
-    "path":"sprites/spr_dog_shrine_card_game_or_whatever_idk_i_never_see_a_casino_or_whatever_the_name_is/spr_dog_shrine_card_game_or_whatever_idk_i_never_see_a_casino_or_whatever_the_name_is.yy",
+    "name":"spr_dog_shrine_card_game",
+    "path":"sprites/spr_dog_shrine_card_game/spr_dog_shrine_card_game.yy",
   },
   "spriteMaskId":null,
   "visible":true,

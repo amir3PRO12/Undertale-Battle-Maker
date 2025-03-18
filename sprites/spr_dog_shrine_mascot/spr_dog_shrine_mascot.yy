@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life",
+  "%Name":"spr_dog_shrine_mascot",
   "bboxMode":0,
   "bbox_bottom":71,
   "bbox_left":0,
@@ -24,7 +24,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"744037bb-c54d-4168-9b92-8a9c09f25221","blendMode":0,"displayName":"default","isLocked":false,"name":"744037bb-c54d-4168-9b92-8a9c09f25221","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life",
+  "name":"spr_dog_shrine_mascot",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -36,7 +36,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life",
+    "%Name":"spr_dog_shrine_mascot",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life",
+    "name":"spr_dog_shrine_mascot",
     "playback":1,
     "playbackSpeed":7.0,
     "playbackSpeedType":0,
@@ -72,16 +72,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37a0e7ab-62a6-4fdb-aa10-e91edfa7cd84","path":"sprites/spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life/spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37a0e7ab-62a6-4fdb-aa10-e91edfa7cd84","path":"sprites/spr_dog_shrine_mascot/spr_dog_shrine_mascot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"febc9edd-db23-4041-ae01-977dcbb42681","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fcd5fe88-e7d0-41bc-8123-1f80698301d5","path":"sprites/spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life/spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fcd5fe88-e7d0-41bc-8123-1f80698301d5","path":"sprites/spr_dog_shrine_mascot/spr_dog_shrine_mascot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ced5cd68-aade-4891-b8fc-f33aab3ced4f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef05a283-9dc1-4640-97b0-ee49af52d99c","path":"sprites/spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life/spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef05a283-9dc1-4640-97b0-ee49af52d99c","path":"sprites/spr_dog_shrine_mascot/spr_dog_shrine_mascot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c8aafb19-de5a-4f36-bf44-6cd40079087b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"db4c48d5-d9a2-4605-b31d-0a679e6ef0fb","path":"sprites/spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life/spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"db4c48d5-d9a2-4605-b31d-0a679e6ef0fb","path":"sprites/spr_dog_shrine_mascot/spr_dog_shrine_mascot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8c997bed-4e1e-4365-83cc-ab64cc3e54e4","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

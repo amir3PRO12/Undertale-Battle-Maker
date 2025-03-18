@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_idk_a_ticket_or_something_because_i_never_played_undertale_on_ps_or_switch_or_xbox_help_me",
-    "path":"sprites/spr_dog_shrine_idk_a_ticket_or_something_because_i_never_played_undertale_on_ps_or_switch_or_xbox_help_me/spr_dog_shrine_idk_a_ticket_or_something_because_i_never_played_undertale_on_ps_or_switch_or_xbox_help_me.yy",
+    "name":"spr_dog_shrine_ticket",
+    "path":"sprites/spr_dog_shrine_ticket/spr_dog_shrine_ticket.yy",
   },
   "spriteMaskId":null,
   "visible":true,

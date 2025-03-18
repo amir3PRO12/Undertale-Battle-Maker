@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life",
-    "path":"sprites/spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life/spr_dog_shrine_uh_im_calling_this_guy_puffy_because_i_never_played_switch_or_ps4_or_xbox_in_my_life.yy",
+    "name":"spr_dog_shrine_mascot",
+    "path":"sprites/spr_dog_shrine_mascot/spr_dog_shrine_mascot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

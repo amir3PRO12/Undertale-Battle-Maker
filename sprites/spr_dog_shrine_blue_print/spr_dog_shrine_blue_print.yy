@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_dog_shrine_map_or_blue_print_or_idk_stop_reading_these_stupid_names_i_make",
+  "%Name":"spr_dog_shrine_blue_print",
   "bboxMode":0,
   "bbox_bottom":9,
   "bbox_left":0,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"a91ba2d7-063d-4fa4-a128-faac8eee8b9c","blendMode":0,"displayName":"default","isLocked":false,"name":"a91ba2d7-063d-4fa4-a128-faac8eee8b9c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_dog_shrine_map_or_blue_print_or_idk_stop_reading_these_stupid_names_i_make",
+  "name":"spr_dog_shrine_blue_print",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_dog_shrine_map_or_blue_print_or_idk_stop_reading_these_stupid_names_i_make",
+    "%Name":"spr_dog_shrine_blue_print",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_dog_shrine_map_or_blue_print_or_idk_stop_reading_these_stupid_names_i_make",
+    "name":"spr_dog_shrine_blue_print",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c0ff890-3df1-43ba-90e6-59d20fdedf47","path":"sprites/spr_dog_shrine_map_or_blue_print_or_idk_stop_reading_these_stupid_names_i_make/spr_dog_shrine_map_or_blue_print_or_idk_stop_reading_these_stupid_names_i_make.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c0ff890-3df1-43ba-90e6-59d20fdedf47","path":"sprites/spr_dog_shrine_blue_print/spr_dog_shrine_blue_print.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"cb0c289b-60b7-4887-9da5-3426154293ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

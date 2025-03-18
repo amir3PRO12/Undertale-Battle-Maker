@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_does_mtt_have_chips_cause_i_want_one",
-    "path":"sprites/spr_dog_shrine_does_mtt_have_chips_cause_i_want_one/spr_dog_shrine_does_mtt_have_chips_cause_i_want_one.yy",
+    "name":"spr_dog_shrine_mtt_food",
+    "path":"sprites/spr_dog_shrine_mtt_food/spr_dog_shrine_mtt_food.yy",
   },
   "spriteMaskId":null,
   "visible":true,

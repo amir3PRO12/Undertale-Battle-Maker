@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_map_or_blue_print_or_idk_stop_reading_these_stupid_names_i_make",
-    "path":"sprites/spr_dog_shrine_map_or_blue_print_or_idk_stop_reading_these_stupid_names_i_make/spr_dog_shrine_map_or_blue_print_or_idk_stop_reading_these_stupid_names_i_make.yy",
+    "name":"spr_dog_shrine_blue_print",
+    "path":"sprites/spr_dog_shrine_blue_print/spr_dog_shrine_blue_print.yy",
   },
   "spriteMaskId":null,
   "visible":true,

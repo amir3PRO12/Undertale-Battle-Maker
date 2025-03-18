@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_dog_shrine_idk_a_ticket_or_something_because_i_never_played_undertale_on_ps_or_switch_or_xbox_help_me",
+  "%Name":"spr_dog_shrine_mtt_food",
   "bboxMode":0,
-  "bbox_bottom":10,
+  "bbox_bottom":22,
   "bbox_left":0,
-  "bbox_right":11,
+  "bbox_right":16,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2ba55977-d2ed-4537-899b-1e0e762cb34e","name":"2ba55977-d2ed-4537-899b-1e0e762cb34e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"244b2805-32ce-44d8-917c-4e75888d1765","name":"244b2805-32ce-44d8-917c-4e75888d1765","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":11,
+  "height":23,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b25b9394-4bbe-4bac-b1e2-d2dbdcf14c34","blendMode":0,"displayName":"default","isLocked":false,"name":"b25b9394-4bbe-4bac-b1e2-d2dbdcf14c34","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5a7fbba7-e806-4f10-9be9-21c76e478d47","blendMode":0,"displayName":"default","isLocked":false,"name":"5a7fbba7-e806-4f10-9be9-21c76e478d47","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_dog_shrine_idk_a_ticket_or_something_because_i_never_played_undertale_on_ps_or_switch_or_xbox_help_me",
+  "name":"spr_dog_shrine_mtt_food",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_dog_shrine_idk_a_ticket_or_something_because_i_never_played_undertale_on_ps_or_switch_or_xbox_help_me",
+    "%Name":"spr_dog_shrine_mtt_food",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_dog_shrine_idk_a_ticket_or_something_because_i_never_played_undertale_on_ps_or_switch_or_xbox_help_me",
+    "name":"spr_dog_shrine_mtt_food",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ba55977-d2ed-4537-899b-1e0e762cb34e","path":"sprites/spr_dog_shrine_idk_a_ticket_or_something_because_i_never_played_undertale_on_ps_or_switch_or_xbox_help_me/spr_dog_shrine_idk_a_ticket_or_something_because_i_never_played_undertale_on_ps_or_switch_or_xbox_help_me.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d704a796-c653-4a6e-8c43-ab766e95e53b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"244b2805-32ce-44d8-917c-4e75888d1765","path":"sprites/spr_dog_shrine_mtt_food/spr_dog_shrine_mtt_food.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e2f3c95b-b1a3-4539-87ee-3c27a8537a76","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":6,
-    "yorigin":5,
+    "xorigin":8,
+    "yorigin":11,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":12,
+  "width":17,
 }

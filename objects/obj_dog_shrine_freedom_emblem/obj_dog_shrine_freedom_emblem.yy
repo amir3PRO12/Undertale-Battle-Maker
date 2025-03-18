@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_no_idea_cause_i_never_played_undertale_on_ps_or_switch_or_xbox",
-    "path":"sprites/spr_dog_shrine_no_idea_cause_i_never_played_undertale_on_ps_or_switch_or_xbox/spr_dog_shrine_no_idea_cause_i_never_played_undertale_on_ps_or_switch_or_xbox.yy",
+    "name":"spr_dog_shrine_writing",
+    "path":"sprites/spr_dog_shrine_writing/spr_dog_shrine_writing.yy",
   },
   "spriteMaskId":null,
   "visible":true,

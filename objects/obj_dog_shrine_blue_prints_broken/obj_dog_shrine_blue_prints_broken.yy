@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_someone_didnt_like_the_map_or_blue_print_of_something_and_put_x_all_over_it",
-    "path":"sprites/spr_dog_shrine_someone_didnt_like_the_map_or_blue_print_of_something_and_put_x_all_over_it/spr_dog_shrine_someone_didnt_like_the_map_or_blue_print_of_something_and_put_x_all_over_it.yy",
+    "name":"spr_dog_shrine_blue_print_x",
+    "path":"sprites/spr_dog_shrine_blue_print_x/spr_dog_shrine_blue_print_x.yy",
   },
   "spriteMaskId":null,
   "visible":true,

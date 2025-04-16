@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_red_tile_act_as_a_solid_wall",
     "autoRecord":true,
     "backdropHeight":768,

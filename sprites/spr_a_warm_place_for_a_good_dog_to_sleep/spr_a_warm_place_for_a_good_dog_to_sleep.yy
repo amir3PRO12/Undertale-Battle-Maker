@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_a_warm_place_for_a_good_dog_to_sleep",
     "autoRecord":true,
     "backdropHeight":768,

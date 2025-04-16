@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_idk_what_is_this_but_i_add_it_anyway",
     "autoRecord":true,
     "backdropHeight":768,

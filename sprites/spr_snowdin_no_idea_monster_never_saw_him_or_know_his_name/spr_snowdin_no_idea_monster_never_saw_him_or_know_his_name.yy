@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_snowdin_no_idea_monster_never_saw_him_or_know_his_name",
     "autoRecord":true,
     "backdropHeight":768,

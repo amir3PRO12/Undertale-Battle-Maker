@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_fishing_rod_in_a_world_full_of_monster_with_fish",
     "autoRecord":true,
     "backdropHeight":768,

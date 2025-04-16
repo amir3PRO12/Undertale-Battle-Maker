@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_ice_but_uh_bad_drawn_i_guess_wait_no_its_beautiful",
     "autoRecord":true,
     "backdropHeight":768,

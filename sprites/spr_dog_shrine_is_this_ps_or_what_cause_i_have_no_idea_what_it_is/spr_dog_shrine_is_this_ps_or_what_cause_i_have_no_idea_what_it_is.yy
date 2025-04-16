@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_dog_shrine_is_this_ps_or_what_cause_i_have_no_idea_what_it_is",
     "autoRecord":true,
     "backdropHeight":768,

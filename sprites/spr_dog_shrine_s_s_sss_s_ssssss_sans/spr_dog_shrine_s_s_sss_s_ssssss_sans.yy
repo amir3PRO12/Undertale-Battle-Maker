@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_dog_shrine_s_s_sss_s_ssssss_sans",
     "autoRecord":true,
     "backdropHeight":768,

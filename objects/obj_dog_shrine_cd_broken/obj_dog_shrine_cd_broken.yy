@@ -10,8 +10,8 @@
     "path":"folders/Objects/Snowdin/Snowdin_Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_object_snowdin_parent",
-    "path":"objects/obj_object_snowdin_parent/obj_object_snowdin_parent.yy",
+    "name":"obj_wall",
+    "path":"objects/obj_wall/obj_wall.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_i_still_have_no_fucking_idea_what_this_is",
-    "path":"sprites/spr_dog_shrine_i_still_have_no_fucking_idea_what_this_is/spr_dog_shrine_i_still_have_no_fucking_idea_what_this_is.yy",
+    "name":"spr_dog_shrine_cd_broken",
+    "path":"sprites/spr_dog_shrine_cd_broken/spr_dog_shrine_cd_broken.yy",
   },
   "spriteMaskId":null,
   "visible":true,

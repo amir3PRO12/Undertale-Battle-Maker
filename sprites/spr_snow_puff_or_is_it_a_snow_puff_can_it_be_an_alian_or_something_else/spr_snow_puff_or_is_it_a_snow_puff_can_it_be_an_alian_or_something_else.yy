@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_snow_puff_or_is_it_a_snow_puff_can_it_be_an_alian_or_something_else",
     "autoRecord":true,
     "backdropHeight":768,

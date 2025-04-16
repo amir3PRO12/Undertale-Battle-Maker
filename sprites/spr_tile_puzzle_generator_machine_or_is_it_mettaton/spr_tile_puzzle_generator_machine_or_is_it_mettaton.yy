@@ -35,7 +35,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_tile_puzzle_generator_machine_or_is_it_mettaton",
     "autoRecord":true,
     "backdropHeight":768,

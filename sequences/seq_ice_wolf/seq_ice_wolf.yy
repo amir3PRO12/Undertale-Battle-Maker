@@ -1,5 +1,5 @@
 {
-  "$GMSequence":"",
+  "$GMSequence":"v1",
   "%Name":"seq_ice_wolf",
   "autoRecord":true,
   "backdropHeight":768,

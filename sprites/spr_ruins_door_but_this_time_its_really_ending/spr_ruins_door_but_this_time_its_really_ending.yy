@@ -33,7 +33,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_ruins_door_but_this_time_its_really_ending",
     "autoRecord":true,
     "backdropHeight":768,

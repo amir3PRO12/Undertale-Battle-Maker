@@ -10,8 +10,8 @@
     "path":"folders/Objects/Tile_Puzzle.yy",
   },
   "parentObjectId":{
-    "name":"obj_object_snowdin_parent",
-    "path":"objects/obj_object_snowdin_parent/obj_object_snowdin_parent.yy",
+    "name":"obj_wall",
+    "path":"objects/obj_wall/obj_wall.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

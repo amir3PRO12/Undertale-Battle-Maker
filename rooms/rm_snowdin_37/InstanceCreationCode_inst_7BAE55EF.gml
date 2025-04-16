@@ -1,5 +1,6 @@
-target_rm = rm_snowdin_36;
-target_x = 88;
+target_x = 90;
 target_y = 215;
+
+target_rm = rm_snowdin_36;
 
 target_face = UP;

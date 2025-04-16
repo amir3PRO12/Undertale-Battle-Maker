@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_dog_shrine_radio_or_music_player_got_broken_no_more_music",
     "autoRecord":true,
     "backdropHeight":768,

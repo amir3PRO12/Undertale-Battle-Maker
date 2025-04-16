@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_dog_shrine_is_not_shine_ing_anymore",
     "autoRecord":true,
     "backdropHeight":768,

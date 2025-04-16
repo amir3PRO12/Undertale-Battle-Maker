@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_pointing_arrow_for_the_purple_tiles",
     "autoRecord":true,
     "backdropHeight":768,

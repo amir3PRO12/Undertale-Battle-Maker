@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_orange_tile_makes_you_covered_in_orange",
     "autoRecord":true,
     "backdropHeight":768,

@@ -83,7 +83,6 @@ switch(room){
 	case rm_snowdin_31:
 	case rm_snowdin_32:
 	case rm_snowdin_33:
-	case rm_snowdin_34_work_on_progress:
 	case rm_snowdin_35:
 	case rm_snowdin_36:
 }

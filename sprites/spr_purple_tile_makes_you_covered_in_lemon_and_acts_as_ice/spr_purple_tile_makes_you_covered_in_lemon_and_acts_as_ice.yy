@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_purple_tile_makes_you_covered_in_lemon_and_acts_as_ice",
     "autoRecord":true,
     "backdropHeight":768,

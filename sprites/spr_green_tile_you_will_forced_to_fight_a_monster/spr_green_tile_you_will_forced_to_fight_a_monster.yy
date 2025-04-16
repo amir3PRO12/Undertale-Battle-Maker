@@ -32,7 +32,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_green_tile_you_will_forced_to_fight_a_monster",
     "autoRecord":true,
     "backdropHeight":768,

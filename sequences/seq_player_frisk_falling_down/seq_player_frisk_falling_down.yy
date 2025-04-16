@@ -1,5 +1,5 @@
 {
-  "$GMSequence":"",
+  "$GMSequence":"v1",
   "%Name":"seq_player_frisk_falling_down",
   "autoRecord":true,
   "backdropHeight":768,

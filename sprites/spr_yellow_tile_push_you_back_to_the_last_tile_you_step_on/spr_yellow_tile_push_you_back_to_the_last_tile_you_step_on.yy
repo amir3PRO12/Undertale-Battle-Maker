@@ -46,7 +46,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_yellow_tile_push_you_back_to_the_last_tile_you_step_on",
     "autoRecord":true,
     "backdropHeight":768,

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_object_ruins_parent",
+  "%Name":"obj_toriels_room_blanket",
   "eventList":[],
   "managed":true,
-  "name":"obj_object_ruins_parent",
+  "name":"obj_toriels_room_blanket",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects Data",
-    "path":"folders/Objects/Data/Objects Data.yy",
+    "name":"Ruins_Home",
+    "path":"folders/Objects/Ruins/Ruins_Home.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_toriels_room_blanket",
+    "path":"sprites/spr_toriels_room_blanket/spr_toriels_room_blanket.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

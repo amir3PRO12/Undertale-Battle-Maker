@@ -11,10 +11,7 @@
     "name":"Ruins_Mouse_Hole",
     "path":"folders/Objects/Ruins/Ruins_Mouse_Hole.yy",
   },
-  "parentObjectId":{
-    "name":"obj_object_ruins_parent",
-    "path":"objects/obj_object_ruins_parent/obj_object_ruins_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

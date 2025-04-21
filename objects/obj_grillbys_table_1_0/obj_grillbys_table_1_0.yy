@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_grillbys_table_1_0",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_grillbys_table_1_0",
   "overriddenProperties":[],
@@ -11,10 +9,7 @@
     "name":"Snowdin_Objects",
     "path":"folders/Objects/Snowdin/Snowdin_Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_wall",
-    "path":"objects/obj_wall/obj_wall.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

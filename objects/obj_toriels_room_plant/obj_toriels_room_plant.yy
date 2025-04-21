@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npcs_snowdin_parent",
+  "%Name":"obj_toriels_room_plant",
   "eventList":[],
   "managed":true,
-  "name":"obj_npcs_snowdin_parent",
+  "name":"obj_toriels_room_plant",
   "overriddenProperties":[],
   "parent":{
-    "name":"NPCs Data",
-    "path":"folders/Objects/Data/NPCs Data.yy",
+    "name":"Ruins_Home",
+    "path":"folders/Objects/Ruins/Ruins_Home.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_toriels_room_plant",
+    "path":"sprites/spr_toriels_room_plant/spr_toriels_room_plant.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -11,10 +11,7 @@
     "name":"Ruins_NPCs",
     "path":"folders/Objects/Ruins/Ruins_NPCs.yy",
   },
-  "parentObjectId":{
-    "name":"obj_npcs_main_parent",
-    "path":"objects/obj_npcs_main_parent/obj_npcs_main_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

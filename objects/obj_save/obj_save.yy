@@ -9,10 +9,7 @@
     "name":"Save",
     "path":"folders/Objects/Save.yy",
   },
-  "parentObjectId":{
-    "name":"obj_object_main_parent",
-    "path":"objects/obj_object_main_parent/obj_object_main_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

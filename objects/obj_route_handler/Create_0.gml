@@ -1,6 +1,14 @@
+//Fun Value Of The Entire Undertale/Deltarune World, This Will Tell What Happens At What Exact Time And What Happens To Something Else.
+global.Fun_Value = random(100);
 
+//Speedrun Run.
+global.Speedrun = false;
 
-
+//SOULLESS Run.
+global.SOULLESS_Genocide = false;
+global.SOULLESS_Pacifist = false;
+global.SOULLESS_Neutral = false;
+global.SOULLESS_True_Pacifist = false;
 
 //Ruins
 global.Ruins_Genocide = true; //Genocide Or No Mercy Route. Killing Everyone In Your Path.

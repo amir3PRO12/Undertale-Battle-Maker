@@ -1,5 +1,5 @@
 //Fun Value Of The Entire Undertale/Deltarune World, This Will Tell What Happens At What Exact Time And What Happens To Something Else.
-global.Fun_Value = random(100);
+global.Fun_Value = irandom(100);
 
 //Speedrun Run.
 global.Speedrun = false;

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_radio_or_music_player_got_broken_no_more_music",
-    "path":"sprites/spr_dog_shrine_radio_or_music_player_got_broken_no_more_music/spr_dog_shrine_radio_or_music_player_got_broken_no_more_music.yy",
+    "name":"spr_dog_shrine_music_player_broken",
+    "path":"sprites/spr_dog_shrine_music_player_broken/spr_dog_shrine_music_player_broken.yy",
   },
   "spriteMaskId":null,
   "visible":true,

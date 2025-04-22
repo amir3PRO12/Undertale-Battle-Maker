@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_is_this_ps_or_what_cause_i_have_no_idea_what_it_is",
-    "path":"sprites/spr_dog_shrine_is_this_ps_or_what_cause_i_have_no_idea_what_it_is/spr_dog_shrine_is_this_ps_or_what_cause_i_have_no_idea_what_it_is.yy",
+    "name":"spr_dog_shrine_ps",
+    "path":"sprites/spr_dog_shrine_ps/spr_dog_shrine_ps.yy",
   },
   "spriteMaskId":null,
   "visible":true,

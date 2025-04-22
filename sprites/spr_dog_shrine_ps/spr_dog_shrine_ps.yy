@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_idk_what_is_this_but_i_add_it_anyway",
+  "%Name":"spr_dog_shrine_ps",
   "bboxMode":0,
-  "bbox_bottom":25,
+  "bbox_bottom":30,
   "bbox_left":0,
-  "bbox_right":52,
+  "bbox_right":45,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3737d85a-1025-4d7a-a2f7-e1ae1bc0f32f","name":"3737d85a-1025-4d7a-a2f7-e1ae1bc0f32f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"00e50640-8327-4ebf-a3c7-7901c296b55c","name":"00e50640-8327-4ebf-a3c7-7901c296b55c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":26,
+  "height":31,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"144de636-ef73-4756-b36b-3b8f3ea6570d","blendMode":0,"displayName":"default","isLocked":false,"name":"144de636-ef73-4756-b36b-3b8f3ea6570d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"68be7841-fcec-4354-83a9-c990a3b1e1d2","blendMode":0,"displayName":"default","isLocked":false,"name":"68be7841-fcec-4354-83a9-c990a3b1e1d2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_idk_what_is_this_but_i_add_it_anyway",
+  "name":"spr_dog_shrine_ps",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_idk_what_is_this_but_i_add_it_anyway",
+    "%Name":"spr_dog_shrine_ps",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_idk_what_is_this_but_i_add_it_anyway",
+    "name":"spr_dog_shrine_ps",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3737d85a-1025-4d7a-a2f7-e1ae1bc0f32f","path":"sprites/spr_idk_what_is_this_but_i_add_it_anyway/spr_idk_what_is_this_but_i_add_it_anyway.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"59359135-943f-4380-9494-01081214c68c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"00e50640-8327-4ebf-a3c7-7901c296b55c","path":"sprites/spr_dog_shrine_ps/spr_dog_shrine_ps.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e9bb5395-b4c4-43ec-ad7c-f46349998e85","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":26,
-    "yorigin":13,
+    "xorigin":23,
+    "yorigin":15,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":53,
+  "width":46,
 }

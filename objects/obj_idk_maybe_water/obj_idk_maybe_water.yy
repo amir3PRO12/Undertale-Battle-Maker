@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_idk_what_is_this_but_i_add_it_anyway",
-    "path":"sprites/spr_idk_what_is_this_but_i_add_it_anyway/spr_idk_what_is_this_but_i_add_it_anyway.yy",
+    "name":"spr_yes",
+    "path":"sprites/spr_yes/spr_yes.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_dog_shrine_radio_or_music_player_got_broken_no_more_music",
+  "%Name":"spr_dog_shrine_music_player_broken",
   "bboxMode":0,
   "bbox_bottom":17,
   "bbox_left":0,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"1bbdfdcc-091c-4c39-91a5-113a3e47ab42","blendMode":0,"displayName":"default","isLocked":false,"name":"1bbdfdcc-091c-4c39-91a5-113a3e47ab42","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_dog_shrine_radio_or_music_player_got_broken_no_more_music",
+  "name":"spr_dog_shrine_music_player_broken",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_dog_shrine_radio_or_music_player_got_broken_no_more_music",
+    "%Name":"spr_dog_shrine_music_player_broken",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_dog_shrine_radio_or_music_player_got_broken_no_more_music",
+    "name":"spr_dog_shrine_music_player_broken",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"482b84ba-19d0-49eb-8c2e-6fd67c0484b7","path":"sprites/spr_dog_shrine_radio_or_music_player_got_broken_no_more_music/spr_dog_shrine_radio_or_music_player_got_broken_no_more_music.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"482b84ba-19d0-49eb-8c2e-6fd67c0484b7","path":"sprites/spr_dog_shrine_music_player_broken/spr_dog_shrine_music_player_broken.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9a980710-730f-4a5b-bc1e-55bc2f966684","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

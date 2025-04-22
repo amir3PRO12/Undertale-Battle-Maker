@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ruins_door_but_this_time_its_really_ending",
-    "path":"sprites/spr_ruins_door_but_this_time_its_really_ending/spr_ruins_door_but_this_time_its_really_ending.yy",
+    "name":"spr_ruins_door_end",
+    "path":"sprites/spr_ruins_door_end/spr_ruins_door_end.yy",
   },
   "spriteMaskId":null,
   "visible":true,

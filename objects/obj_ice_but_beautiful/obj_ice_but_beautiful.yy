@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ice_but_uh_bad_drawn_i_guess_wait_no_its_beautiful",
-    "path":"sprites/spr_ice_but_uh_bad_drawn_i_guess_wait_no_its_beautiful/spr_ice_but_uh_bad_drawn_i_guess_wait_no_its_beautiful.yy",
+    "name":"spr_ice_uh_idk",
+    "path":"sprites/spr_ice_uh_idk/spr_ice_uh_idk.yy",
   },
   "spriteMaskId":null,
   "visible":true,

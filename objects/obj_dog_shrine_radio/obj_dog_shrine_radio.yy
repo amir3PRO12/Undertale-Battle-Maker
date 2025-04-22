@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dog_shrine_radio_or_music_player_idk",
-    "path":"sprites/spr_dog_shrine_radio_or_music_player_idk/spr_dog_shrine_radio_or_music_player_idk.yy",
+    "name":"spr_dog_shrine_music_player",
+    "path":"sprites/spr_dog_shrine_music_player/spr_dog_shrine_music_player.yy",
   },
   "spriteMaskId":null,
   "visible":true,

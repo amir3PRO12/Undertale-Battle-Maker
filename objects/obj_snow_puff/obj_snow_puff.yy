@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_snow_puff_or_is_it_a_snow_puff_can_it_be_an_alian_or_something_else",
-    "path":"sprites/spr_snow_puff_or_is_it_a_snow_puff_can_it_be_an_alian_or_something_else/spr_snow_puff_or_is_it_a_snow_puff_can_it_be_an_alian_or_something_else.yy",
+    "name":"spr_snow_puff",
+    "path":"sprites/spr_snow_puff/spr_snow_puff.yy",
   },
   "spriteMaskId":null,
   "visible":true,

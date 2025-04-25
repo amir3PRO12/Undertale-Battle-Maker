@@ -56,7 +56,10 @@ if instance_exists(obj_player_stop){
 #endregion
 
 #region //sets the sprite to where is gonna be when entering a room PLUS when you are walking/stopping.
-mask_index = sprite[DOWN];
+
+// Some uniform collision mask regardless of sprite
+mask_index = spr_player_frisk_down_walking
+
 if yspd == 0{
 	if xspd > 0 {
 		face = RIGHT;

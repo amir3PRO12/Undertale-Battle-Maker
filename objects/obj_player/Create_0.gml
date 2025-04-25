@@ -28,6 +28,7 @@ sprite[DOWN] = spr_player_frisk_down_walking;
 
 face = DOWN;
 
+
 //Mouse Stuff
 
 //left, right, and middle click stuff for the mouse.

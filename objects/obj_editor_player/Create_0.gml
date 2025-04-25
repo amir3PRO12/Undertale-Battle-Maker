@@ -55,7 +55,8 @@ load_button.activate = function() {
 	
 	// If sprite is created set general values
 	if sprite_exists(sprite) {
-		sprite_set_offset(sprite, sprite_get_width(sprite), sprite_get_height(sprite))
+		// Currently all offsets are at the center, big sprites may look funky on collision because of that
+		sprite_set_offset(sprite, sprite_get_width(sprite)/2, sprite_get_height(sprite)/2)
 		sprite_set_speed(sprite,6,spritespeed_framespersecond)
 		
 		// If it isn't a game asset or a specifically named png, clear memory

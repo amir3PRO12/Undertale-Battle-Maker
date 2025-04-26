@@ -24,12 +24,15 @@ dialogue_box_sprite_width = 0;
 dialogue_box_sprite_height = 0;
 #endregion
 
-
 //Page is like a book, when you are in a page for example page 1, you read it and go to the next page, the dialogue box is also like this.
 page = 0;
 
 //the number amount of pages we have.
 page_number = 0;
+
+// Once you've read through all pages next time you'll read the next book 
+book = 0
+book_number = 0
 
 //the text that is going to be appear on the page.
 text[0] = "";
@@ -38,6 +41,7 @@ text[0] = "";
 
 //this will make the game to know how many alphabet words are in the page we are viewing right now.
 text_length[0] = string_length(text[0]);
+text_x_offset = []
 
 //this will show how many alphabet words are currently being drawn, you know the animation that types from the begining and goes all the way to the end.
 draw_chara = 0;
@@ -45,5 +49,20 @@ draw_chara = 0;
 //how fast you want the text to be drawn/the animation of the text to be drawn on the screen.
 text_spd = 1;
 
+// font that will be used throughout dialogue
+font = fon_determination_sans_web
+
 //we'll use this variable to check if a setup has been done and if it hasn't then we're going to run certain codes in our draw event before we actually try and get anything on screen.
 setup = false;
+
+// if in dialogue show dialogue box and start reading
+in_dialogue = false
+
+// Variables for when player has a choice
+choice_page = 0
+choices = []
+choice_offset = 10;
+current_choice = 0
+
+// current library in use
+library = {}

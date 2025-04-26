@@ -1,7 +1,10 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"The Trues","order":1,"path":"folders/Sprites/The Trues.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"obj_charas_room_blanket","order":1,"path":"objects/obj_charas_room_blanket/obj_charas_room_blanket.yy",},
+    {"name":"obj_dialoguebox","order":1,"path":"objects/obj_dialoguebox/obj_dialoguebox.yy",},
     {"name":"obj_snowdin_inn_blanket","order":1,"path":"objects/obj_snowdin_inn_blanket/obj_snowdin_inn_blanket.yy",},
     {"name":"obj_toriels_room_blanket","order":3,"path":"objects/obj_toriels_room_blanket/obj_toriels_room_blanket.yy",},
     {"name":"obj_toriels_room_plant","order":2,"path":"objects/obj_toriels_room_plant/obj_toriels_room_plant.yy",},
@@ -107,6 +110,8 @@
     {"name":"spr_table","order":6,"path":"sprites/spr_table/spr_table.yy",},
     {"name":"spr_toriels_room_blanket","order":2,"path":"sprites/spr_toriels_room_blanket/spr_toriels_room_blanket.yy",},
     {"name":"spr_toriels_room_plant","order":13,"path":"sprites/spr_toriels_room_plant/spr_toriels_room_plant.yy",},
+    {"name":"spr_true_chara_battle_mode_not_finished","order":1,"path":"sprites/spr_true_chara_battle_mode_not_finished/spr_true_chara_battle_mode_not_finished.yy",},
+    {"name":"spr_true_dust","order":2,"path":"sprites/spr_true_dust/spr_true_dust.yy",},
     {"name":"spr_uh_grab_thingy","order":8,"path":"sprites/spr_uh_grab_thingy/spr_uh_grab_thingy.yy",},
   ],
 }

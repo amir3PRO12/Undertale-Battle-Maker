@@ -9,9 +9,12 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Snowdin_Objects",
-    "path":"folders/Objects/Snowdin/Snowdin_Objects.yy",
+    "path":"folders/Objects/Overworld/Snowdin/Snowdin_Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_wall",
+    "path":"objects/obj_wall/obj_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

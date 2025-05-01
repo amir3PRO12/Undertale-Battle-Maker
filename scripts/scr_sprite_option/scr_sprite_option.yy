@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_sprite_option",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Player_Scripts",
+    "path":"folders/Scripts/Player_Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

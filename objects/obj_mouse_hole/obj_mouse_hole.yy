@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins_Mouse_Hole",
-    "path":"folders/Objects/Ruins/Ruins_Mouse_Hole.yy",
+    "path":"folders/Objects/Overworld/Ruins/Ruins_Mouse_Hole.yy",
   },
   "parentObjectId":null,
   "persistent":false,

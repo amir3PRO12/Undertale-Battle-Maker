@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins_NPCs",
-    "path":"folders/Objects/Ruins/Ruins_NPCs.yy",
+    "path":"folders/Objects/Overworld/Ruins/Ruins_NPCs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -7,9 +7,9 @@
   },
   "bitDepth":1,
   "bitRate":320,
-  "compression":3,
+  "compression":2,
   "conversionMode":0,
-  "duration":0.108844,
+  "duration":0.10594104,
   "name":"mus_silence",
   "parent":{
     "name":"Musics",

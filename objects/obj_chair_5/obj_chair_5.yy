@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins_Home",
-    "path":"folders/Objects/Ruins/Ruins_Home.yy",
+    "path":"folders/Objects/Overworld/Ruins/Ruins_Home.yy",
   },
   "parentObjectId":{
     "name":"obj_wall",

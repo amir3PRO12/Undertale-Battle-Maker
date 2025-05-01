@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins_Object",
-    "path":"folders/Objects/Ruins/Ruins_Object.yy",
+    "path":"folders/Objects/Overworld/Ruins/Ruins_Object.yy",
   },
   "parentObjectId":{
     "name":"obj_sticky_wall",

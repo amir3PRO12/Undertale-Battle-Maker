@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Waterfall_Objects",
-    "path":"folders/Objects/Waterfall/Waterfall_Objects.yy",
+    "path":"folders/Objects/Overworld/Waterfall/Waterfall_Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

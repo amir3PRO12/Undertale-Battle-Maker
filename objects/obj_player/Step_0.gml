@@ -135,6 +135,7 @@ if place_meeting(x, y + yspd, obj_ice_sliding){
 }
 #endregion
 
+
 //Collisions With Ice Again, Making Sure It Works. (Idk what I am doing... ok? plus, there is a bug that if you hit something while sliding, it makes you get stuck...)
 if can_move_in_ice == true{
 	if place_meeting(x + xspd, y, obj_ice_sliding){

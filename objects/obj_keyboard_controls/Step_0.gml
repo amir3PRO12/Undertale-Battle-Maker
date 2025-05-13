@@ -12,6 +12,15 @@ if (keyboard_check_pressed(vk_f3) and Debug_Mode == false){
 	Debug_Mode = false;
 }
 
+if keyboard_check_pressed(vk_space){
+	Create_Dialogue([
+	{
+	name: "Chara",
+	msg: "It's Working Hopefully..."
+	}
+	])
+}
+
 if Debug_Mode == true{
 	show_debug_log(true);
 	audio_debug(true);
@@ -29,7 +38,6 @@ if Debug_Mode == true{
 	object_set_visible(obj_music_handler, true);
 	object_set_visible(obj_route_handler, true);
 	object_set_visible(obj_npc_handler, true);
-	object_set_visible(obj_debug_mode, true);
 	object_set_visible(obj_object_handler, true);
 } else if Debug_Mode == false{
 	show_debug_log(false);
@@ -48,7 +56,6 @@ if Debug_Mode == true{
 	object_set_visible(obj_music_handler, false);
 	object_set_visible(obj_route_handler, false);
 	object_set_visible(obj_npc_handler, false);
-	object_set_visible(obj_debug_mode, false);
 	object_set_visible(obj_object_handler, false);
 }
 

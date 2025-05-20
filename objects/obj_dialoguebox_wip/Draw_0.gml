@@ -1,6 +1,6 @@
 // If not in dialogue skip everything
 if not in_dialogue {
-	return	
+	return
 }
 
 //Accept key and skip key for skipping the texts and going to the next page of the dialogue box.
@@ -162,7 +162,7 @@ if choice_page == page {
 					choices[_choice], dialogue_sep, choice_width)
 		
 		if _choice == current_choice {
-			draw_sprite(spr_red_soul, 0, 
+			draw_sprite(spr_soul_choose, 0, 
 						dialogue_box_x - 8 + text_x_offset[page] + border_x - (choice_offset / 2) + choice_width + (choice_width)*(_choice),
 						dialogue_box_y + 8 + border_y  + string_height(text[page]))	
 		}

@@ -1,1 +1,1 @@
-room_goto(rm_ruins_entrance)
+room_goto(rm_snowdin_37)

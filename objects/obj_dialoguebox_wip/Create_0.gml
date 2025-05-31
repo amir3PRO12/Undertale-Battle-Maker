@@ -1,7 +1,7 @@
 depth = -9998
 
 //dialogue box widgh and height.
-dialogue_box_width = 295;
+dialogue_box_width = 305;
 dialogue_box_height = 80;
 
 //the border is the amount of pixel the text is gonna be away from the dialogue box white board or you can say the edges or something like that.
@@ -47,7 +47,7 @@ text_x_offset = []
 draw_chara = 0;
 
 //how fast you want the text to be drawn/the animation of the text to be drawn on the screen.
-text_spd = 1;
+text_spd = 0.5;
 
 // font that will be used throughout dialogue
 font = fon_determination_sans_web
@@ -62,7 +62,20 @@ in_dialogue = false
 choice_page = 0
 choices = []
 choice_offset = 10;
+choice_extra_border = 12
 current_choice = 0
 
 // current library in use
 library = {}
+
+// We need that to make dialogue speed fully customisable(like stopping for a second to do an artistic pause or changing word bullets on pills in the middle of the dialogue)
+language = "eng" 
+debug_library = []
+text_to_draw = ""
+text_spd_temp = 0
+skip_spd = 5 //That kinda thing instead of instaskipping
+can_skip = 1
+text_length_temp = 0
+current_voice = voice_test
+chara_counter = 0
+event_user(0)

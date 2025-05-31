@@ -1,1 +1,1 @@
-room_goto(rm_snowdin_37)
+room_goto(rm_snowdin_25)

@@ -29,7 +29,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_charas_room_blanket","order":1,"path":"objects/obj_charas_room_blanket/obj_charas_room_blanket.yy",},
-    {"name":"obj_dialoguebox_wip","order":5,"path":"objects/obj_dialoguebox_wip/obj_dialoguebox_wip.yy",},
+    {"name":"obj_dialoguebox_wip","order":1,"path":"objects/obj_dialoguebox_wip/obj_dialoguebox_wip.yy",},
     {"name":"obj_papyrus_and_sans_thingy_1","order":3,"path":"objects/obj_papyrus_and_sans_thingy_1/obj_papyrus_and_sans_thingy_1.yy",},
     {"name":"obj_papyrus_and_sans_thingy","order":2,"path":"objects/obj_papyrus_and_sans_thingy/obj_papyrus_and_sans_thingy.yy",},
     {"name":"obj_snowdin_inn_blanket","order":1,"path":"objects/obj_snowdin_inn_blanket/obj_snowdin_inn_blanket.yy",},

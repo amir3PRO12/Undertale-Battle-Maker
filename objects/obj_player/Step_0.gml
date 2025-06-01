@@ -177,13 +177,28 @@ if sprint_key{
 
 #region //Interaction with object
 if interact_key
+if !obj_dialoguebox_wip.in_dialogue 
 {object_to_interact = instance_nearest(x+xspd*4,y+yspd*4,obj_interactable)
+	if face = DOWN 
+	{interact_collision_x = 0
+	interact_collision_y = 16}
+	if face = UP
+	{interact_collision_x = 0
+	interact_collision_y = -16}
+	if face = RIGHT 
+	{interact_collision_x = 16
+	interact_collision_y = 8} 
+	if face = LEFT
+	{interact_collision_x = -16
+	interact_collision_y = 8}
 	if instance_exists(object_to_interact)
-if collision_line(x,y,x+xspd*4,y+yspd*4,object_to_interact,1,1)
-with (object_to_interact){
+if collision_line(x,y,x+interact_collision_x,y+interact_collision_y,object_to_interact,1,1)
+with (object_to_interact)
+{
 if obj_player.object_to_interact = self.id
 event_user(0)
 }
+
 }
 #endregion
 ////LVing UP

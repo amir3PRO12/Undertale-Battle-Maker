@@ -23,7 +23,6 @@ move_spd = 2;
 //X and Y speed for the character on keyboard.
 xspd = 0;
 yspd = 0;
-
 //Sprite Facing
 sprite[RIGHT] = spr_player_frisk_right_walking;
 sprite[UP] = spr_player_frisk_up_walking;
@@ -31,7 +30,8 @@ sprite[LEFT] = spr_player_frisk_left_walking;
 sprite[DOWN] = spr_player_frisk_down_walking;
 
 face = DOWN;
-
+interact_collision_x = x 
+interact_collision_y = y
 //Mouse Stuff
 
 //left, right, and middle click stuff for the mouse.

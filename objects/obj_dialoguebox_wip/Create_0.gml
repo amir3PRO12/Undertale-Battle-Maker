@@ -29,7 +29,7 @@ page = 0;
 //the number amount of pages we have.
 page_number = 0;
 
-// Once you've read through all pages next time you'll read the next book 
+// That's kinda you know like a bit of somewhat well pretty much you get me right
 book = 0
 book_number = 0
 
@@ -61,7 +61,7 @@ in_dialogue = false
 choice_page = 0
 choices = []
 choice_offset = 10;
-choice_extra_border = 12
+choice_extra_border = 8
 current_choice = 0
 
 // current library in use
@@ -70,14 +70,32 @@ library = {}
 // We need that to make dialogue speed fully customisable(like stopping for a second to do an artistic pause or changing word bullets on pills in the middle of the dialogue)
 language = "eng" 
 can_walk_while_dialogue = 0
+interact_object = obj_player //noone
+dialogue_face_sprite = spr_toby_dog
+dialogue_face_sprite = spr_sans_dialogue_test
+dialogue_face_sprite = spr_nosprite
+dialogue_face_image = 0
+dialogue_face_image_speed = 0
+temp_pause = 0
+face_xoffset = 0
+face_yoffset = border_y
+face_width = 4
 library = []
-debug_library = []
-test_library = []
 text_to_draw = ""
 text_spd_temp = 0
+
+is_shaking = 0
+text_y_temp = 0
+shake_intensity = 1
+shake_x = 0
+shake_y = 0
+shake_text = 0
+
 skip_spd = 5 //That kinda thing instead of instaskipping
 can_skip = 1
+auto_skip = 0
 text_length_temp = 0
 current_voice = voice_test
 chara_counter = 0
+debug_book_switch = 0
 event_user(0)

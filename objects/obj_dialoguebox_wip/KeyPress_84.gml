@@ -1,14 +1,5 @@
 // Consider this event as pressing Z looking at interactable object
 
 if not in_dialogue {
-	library = debug_library 
-	book_number = array_length(debug_library[$ "test"])
-	text = library[$ "test"][book]
-	text_spd = 0.5
-	current_voice = voice_test
-	// Next time reading move dialogue to the next one or apply any needed logic
-	book = min(book+1,book_number-1)
-	
-	in_dialogue = true
-	can_walk_while_dialogue = 0
+	scr_start_dialogue_idle(debug_library,debug_book_switch,"test",0.5,voice_test,spr_sans_dialogue_test)
 }

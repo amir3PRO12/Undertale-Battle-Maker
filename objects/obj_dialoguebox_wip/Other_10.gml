@@ -16,14 +16,14 @@ debug_library =
 	test:	// Array with all books inside
 			[
 			// Book 0; Consecutive lines read one after another
-			["Dialogue box","Debug time!"],
+			["Dialogue box","Debug time!_scr:scr_dialogue_debug_switch;"],
 			
 			// Book 1; Lines read one after another then an array of choices and what they
 			// lead to. ["CHOICE TEXT", "$go_to_this_part$to_this_book"]
-			["Much to test","Choose what to ", 
+			["_face:spr_sans_dialogue_test;Much to test","Choose what to ", 
 			[["Multiple lines","$choice_one$0"],
 			["Cycles","$choice_two$1"],// This choice leads to choice_two book 2
-			["Speed","$choice_three$0"],
+			//["Speed","$choice_three$0"],
 			["Exit"]]]
 			
 			],
@@ -54,27 +54,52 @@ test_library =
 	test:	// Array with all books inside
 			[
 			// Book 0; Consecutive lines read one after another
-			["Expecting much from this version? We're still in the middle of the development!","You better go visit Snowdin right now. We'll call you when we're done."],
+			["_face:spr_nosprite;Expecting much from this version?_pause:45; We're still in the middle of the development!","You better go visit Snowdin right now. We'll call you when we're done."],
 			
 			// Book 1; Lines read one after another then an array of choices and what they
 			// lead to. ["CHOICE TEXT", "$go_to_this_part$to_this_book"]
-			["Are you still here?","What do you want?scr:scr_change_speaker_none;", 
+			["_face:spr_nosprite;Are you still here?","What do you want?_voice:mus_silence;txt_speed:0.3;", 
 			[["Nothing","$nothing$0"],
 			["Anything","$anything$0"],
-			["I'm already leaving"]]]
+			["I'm already leaving"]]],
+			
+			["_skip:0;_face:spr_toby_dog;txt_speed:0.25;You fool._pause:30; You have no idea of what's coming."]
 			
 			],
 			
-			anything: 
-			[	
+	anything: 
+			[
 				// \n - new line, same as ENTER on keyboard
-				["Something happened..."]
+				["_face:spr_nosprite;Something _scr:scr_do_something;happened..."]
 			],
 			
-			nothing: 
+	nothing: 
 			[	
 				// \n - new line, same as ENTER on keyboard
-				["Nothing happened..."]
+				["_face:spr_nosprite;Nothing happened..."]
 			],
 	}
+smol_objects_library =
+		{
+			sign1:
+			[
+			["That's a sign N1. And it got a lot to say._skip:0;","_skip:3;",
+			"txt_speed:0.8;Proin eget risus tempor tortor condimentum blandit. Nunc a leo sit amet dui sollicitudin egestas eget vitae sem. Fusce sit amet molestie",
+			"Ut elit est, auctor eget bibendum quis, volutpat ut metus. Quisque mollis augue eget dictum fermentum. Ut eget nibh at dolor luctus",
+			"Sed congue mi vitae nulla sagittis, eget eleifend dolor mattis. Nullam eget lacus leo. Mauris mollis quis augue eget aliquam.",
+			"Etiam tempus, sem et congue facilisis, nunc erat tincidunt neque, quis egestas massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti.",
+			"_skip:2;Got it?_pause:30;\n-Got it."]
+			],
+			
+			sign2:
+			[
+			["That's a sign N2txt_speed:0.1;...txt_speed:0.5;\nSomething _face:spr_sans_dialogue_test;txt_speed:3;is not right_face:spr_nosprite;txt_speed:0.5; about it..."]
+			],
+			
+			sign3:
+			[
+			["That's a sign N3......","_shaking:4;DETERMINATIOOOOOOOOOOOOOOON","_shaking:0;..."]
+			],
+		
+		}
 }

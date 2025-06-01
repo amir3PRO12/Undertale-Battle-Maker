@@ -1,0 +1,21 @@
+function scr_change_face(){
+	draw_chara_temp = draw_chara+1
+	symbols_number = 6
+	if string_copy(text_to_draw,draw_chara_temp,symbols_number) = "_face:"
+	{
+	i = symbols_number
+	chara_temp = ""
+	while chara_temp != ";" //or i <= symbols_number+1  //You can put any symbol you want here !WARNING! if you didn't put that symbol after face:yourface then game will crash!
+	{
+	chara_temp = string_copy(text_to_draw,draw_chara_temp+i,1)
+	i++
+	} 
+	a = asset_get_index(string_copy(text_to_draw,draw_chara_temp+symbols_number,i-symbols_number-1))
+	draw_chara--
+	text_to_draw = string_delete(text_to_draw,draw_chara_temp,i)
+	text_length_temp-= i
+	dialogue_face_sprite = a
+	face_width = sprite_get_width(a) + 4
+}
+
+}

@@ -15,6 +15,7 @@ y_mode = 1
 var dialogue_box_x = camera_get_view_x(view_camera[0]) + -30;
 var dialogue_box_y = camera_get_view_y(view_camera[0]) + 5 + 150*y_mode;
 
+
 //the setup where our dialogue box will appear and where the text will look like and animate.
 if setup == false{
 	setup = true;
@@ -60,29 +61,42 @@ if setup == false{
 	}
 }
 
-
-
 //typing the text.
 if draw_chara < text_length_temp{
+	if temp_pause > 0
+	temp_pause -= 1+auto_skip*skip_spd*can_skip
+	else
+	{
 	chara_counter += text_spd+skip_key_hold*skip_spd*can_skip
 	while chara_counter > 1
 	{chara_counter--
 	scr_calculate_txt_speed()
 	scr_check_scripts()
+	scr_change_face()
+	scr_change_voice()
+	scr_check_skip()
+	scr_check_pause()
+	scr_check_shaking()
 	{draw_chara++
-		if !audio_is_playing(current_voice)
+		dialogue_face_image += 0.1
+		if !audio_is_playing(current_voice) and string_char_at(text_to_draw,draw_chara) != " "
 		audio_play_sound(current_voice,100,0)
 	}}
-	draw_chara = clamp(draw_chara, 0, text_length_temp);
+	draw_chara = clamp(draw_chara, 0, text_length_temp);}
+}
+else 
+{
+dialogue_face_image = 0
 }
 
 
 //flip through the pages.
-if accept_key{
+if max(auto_skip,accept_key){
 	//if typing animation is done, then we can go to the next page, else if there is none, close the dialogue box.
 	if draw_chara == text_length_temp{
 		// back to start char
 		draw_chara = 0;
+		audio_stop_sound(current_voice)
 		
 		//the next page.
 		if page < page_number-1{
@@ -138,7 +152,7 @@ if accept_key{
 }
 
 
-if skip_key{
+if skip_key{//Unused for now
 	
 }
 
@@ -148,19 +162,33 @@ dialogue_box_image += dialogue_box_image_spd;
 dialogue_box_sprite_width = sprite_get_width(dialogue_box_sprite);
 dialogue_box_sprite_height = sprite_get_height(dialogue_box_sprite);
 
+face_width = sprite_get_width(dialogue_face_sprite) + 4
 //back of the dialogue box.
 draw_sprite_ext(dialogue_box_sprite, dialogue_box_image, dialogue_box_x + text_x_offset[page], dialogue_box_y, dialogue_box_width/dialogue_box_sprite_width, dialogue_box_height/dialogue_box_sprite_height, 0, c_white, 1);
+draw_sprite_ext(dialogue_face_sprite,dialogue_face_image, dialogue_box_x + text_x_offset[page] + face_xoffset + border_x, dialogue_box_y + face_yoffset,1,1,0,c_white,1)
 
 //draw the text.
+var text_x = dialogue_box_x + text_x_offset[page] + border_x + face_width
+var text_y = dialogue_box_y + border_y
 var _drawtext = string_copy(text_to_draw, 1, draw_chara);
-draw_text_ext(dialogue_box_x + text_x_offset[page] + border_x, dialogue_box_y + border_y, _drawtext, dialogue_sep, dialogue_width)
+if !is_shaking
+draw_text_ext(text_x, text_y, _drawtext, dialogue_sep, dialogue_width-face_width)
 
+if is_shaking
+for(i=0; i<draw_chara; i++) {//SHAKING TEXT REQUIRES \n FOR NEW LINES!
+	shake_text = string_copy(text_to_draw, i+1, 1)
+    shake_x = random_range(-shake_intensity, shake_intensity)
+    shake_y = random_range(-shake_intensity, shake_intensity)
+    draw_text(text_x+shake_x, text_y+shake_y, shake_text);
+	text_x += string_width(shake_text)
+    }
+text_y_temp -= 0
 // draw choices when needed
 if choice_page == page {
 	var _choices_num = array_length(choices)
 	
 	// evenly divide width between choices
-	var choice_width = dialogue_width div (_choices_num)
+	var choice_width = (dialogue_width-face_width) div (_choices_num)
 	
 	// Choice navigation with clamping
 	if keyboard_check_pressed(vk_left) {
@@ -173,13 +201,22 @@ if choice_page == page {
 	// Draw all choices and soul to represent current one
 	// Looks... ok.
 	for (var _choice = 0; _choice <  _choices_num; _choice++) {
-		draw_text_ext(dialogue_box_x + text_x_offset[page] + border_x + (choice_width)*(_choice) + choice_extra_border,
-					dialogue_box_y + border_y + string_height(text_to_draw), 
-					choices[_choice], dialogue_sep, choice_width)
+		text_x = dialogue_box_x + text_x_offset[page] + border_x + (choice_width)*(_choice) + choice_extra_border + face_width
+		text_y = dialogue_box_y + border_y + string_height(text_to_draw)
+		if !is_shaking
+		draw_text_ext(text_x,text_y, choices[_choice], dialogue_sep, choice_width)
+					else
+for(i=0; i<string_length(choices[_choice]); i++) {//SHAKING TEXT REQUIRES \n FOR NEW LINES!
+	shake_text = string_copy(choices[_choice], i+1, 1)
+    shake_x = random_range(-shake_intensity, shake_intensity)
+    shake_y = random_range(-shake_intensity, shake_intensity)
+    draw_text(text_x+shake_x, text_y+shake_y, shake_text);
+	text_x += string_width(shake_text)
+    }
 		
 		if _choice == current_choice {
 			draw_sprite(spr_soul_choose, 0, 
-						dialogue_box_x - 8 + text_x_offset[page] + border_x - (choice_offset / 2) + (choice_width)*(_choice) + choice_extra_border,
+						dialogue_box_x - 8 + text_x_offset[page] + border_x - (choice_offset / 2) + (choice_width)*(_choice) + choice_extra_border + face_width,
 						dialogue_box_y + 8 + border_y  + string_height(text_to_draw))	
 		}
 	}

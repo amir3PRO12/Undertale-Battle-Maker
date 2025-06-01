@@ -1,7 +1,6 @@
 depth = -9998
-
 //dialogue box widgh and height.
-dialogue_box_width = 305;
+dialogue_box_width = 295;
 dialogue_box_height = 80;
 
 //the border is the amount of pixel the text is gonna be away from the dialogue box white board or you can say the edges or something like that.
@@ -70,7 +69,10 @@ library = {}
 
 // We need that to make dialogue speed fully customisable(like stopping for a second to do an artistic pause or changing word bullets on pills in the middle of the dialogue)
 language = "eng" 
+can_walk_while_dialogue = 0
+library = []
 debug_library = []
+test_library = []
 text_to_draw = ""
 text_spd_temp = 0
 skip_spd = 5 //That kinda thing instead of instaskipping

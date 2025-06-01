@@ -27,6 +27,8 @@ if keyboard_arrow_keys == true{
 	up_key = (keyboard_check(vk_up));
 	down_key = (keyboard_check(vk_down));
 }
+interact_key = (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("Z")) or keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left));
+sprint_key = (keyboard_check(ord("X")) or keyboard_check(vk_shift) or keyboard_check(vk_lshift) or mouse_check_button(mb_right))
 #endregion
 
 #region //fixing the holding both arrow key on keyboard.
@@ -39,8 +41,16 @@ if (down_key == true and up_key == true and keyboard_arrow_keys == true){
 }
 #endregion
 
+can_walk = 1
+
+if !obj_dialoguebox_wip.can_walk_while_dialogue and obj_dialoguebox_wip.in_dialogue 
+{can_walk = 0
+xspd = 0;
+yspd = 0;
+	}
+
 #region //if pressed down key, set the key to 1, else if pressed up, set THAT key to 1, else, be 0. (It's For The Movement)
-if keyboard_arrow_keys == true{
+if keyboard_arrow_keys == true and can_walk == true{
 	yspd = (down_key - up_key) * move_spd;
 	xspd = (right_key - left_key) * move_spd;
 }
@@ -156,7 +166,7 @@ y += yspd;
 x += xspd;
 
 #region //Press X To Run
-if (keyboard_check(ord("X")) or keyboard_check(vk_shift) or keyboard_check(vk_lshift) or mouse_check_button(mb_right)){
+if sprint_key{
 	image_speed = 2;
 	move_spd = 3;
 } else{
@@ -165,6 +175,17 @@ if (keyboard_check(ord("X")) or keyboard_check(vk_shift) or keyboard_check(vk_ls
 }
 #endregion
 
+#region //Interaction with object
+if interact_key
+{object_to_interact = instance_nearest(x+xspd*4,y+yspd*4,obj_interactable)
+	if instance_exists(object_to_interact)
+if collision_line(x,y,x+xspd*4,y+yspd*4,object_to_interact,1,1)
+with (object_to_interact){
+if obj_player.object_to_interact = self.id
+event_user(0)
+}
+}
+#endregion
 ////LVing UP
 //HP = MAX_HP; 
 //MAX_HP = 20 + (LV - 1) * 4; //If MAX_HP is 20 and your LV is 2, it turns your MAX_HP to 24... yeah... um... idk math...

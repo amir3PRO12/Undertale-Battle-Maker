@@ -13,6 +13,10 @@ right_key = false;
 up_key = false;
 down_key = false;
 
+interact_key = false
+object_to_interact = noone
+sprint_key = false
+
 //movement speed for the character on keyboard.
 move_spd = 2;
 
@@ -41,6 +45,7 @@ mouse_move_spd = 0;
 //X and Y speed for the character on mouse.
 xspdmouse = 0;
 yspdmouse = 0;
+can_walk = 1
 
 //Main Objects
 global.can_move_in_main_objects = false;
@@ -65,7 +70,6 @@ global.can_move_in_ruins_object = false;
 
 //Move In Snowdin Objects or not.
 global.can_move_in_snowdin_object = false;
-
 
 //Player/Frisk/Chara Stats
 PLAYER_ID = 0;

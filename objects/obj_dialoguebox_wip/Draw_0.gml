@@ -8,9 +8,12 @@ var accept_key = (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord
 var skip_key = (keyboard_check_pressed(vk_rshift) or keyboard_check_pressed(ord("X")) or keyboard_check_pressed(vk_shift) or mouse_check_button_pressed(mb_right));
 var skip_key_hold = (keyboard_check(vk_rshift) or keyboard_check(ord("X")) or keyboard_check(vk_shift) or mouse_check_button(mb_right));
 
+var y_mode = 0
+if obj_player.y < 150
+y_mode = 1
 
 var dialogue_box_x = camera_get_view_x(view_camera[0]) + -30;
-var dialogue_box_y = camera_get_view_y(view_camera[0]) + 155;
+var dialogue_box_y = camera_get_view_y(view_camera[0]) + 5 + 150*y_mode;
 
 //the setup where our dialogue box will appear and where the text will look like and animate.
 if setup == false{
@@ -65,6 +68,7 @@ if draw_chara < text_length_temp{
 	while chara_counter > 1
 	{chara_counter--
 	scr_calculate_txt_speed()
+	scr_check_scripts()
 	{draw_chara++
 		if !audio_is_playing(current_voice)
 		audio_play_sound(current_voice,100,0)
@@ -145,7 +149,7 @@ dialogue_box_sprite_width = sprite_get_width(dialogue_box_sprite);
 dialogue_box_sprite_height = sprite_get_height(dialogue_box_sprite);
 
 //back of the dialogue box.
-draw_sprite_ext(dialogue_box_sprite, dialogue_box_image, dialogue_box_x + text_x_offset[page], dialogue_box_y, dialogue_box_width/dialogue_box_sprite_width, dialogue_box_height/dialogue_box_sprite_height, 0, c_red, 1);
+draw_sprite_ext(dialogue_box_sprite, dialogue_box_image, dialogue_box_x + text_x_offset[page], dialogue_box_y, dialogue_box_width/dialogue_box_sprite_width, dialogue_box_height/dialogue_box_sprite_height, 0, c_white, 1);
 
 //draw the text.
 var _drawtext = string_copy(text_to_draw, 1, draw_chara);

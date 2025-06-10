@@ -16,6 +16,7 @@ down_key = false;
 interact_key = false
 object_to_interact = noone
 sprint_key = false
+dance = false
 
 //movement speed for the character on keyboard.
 move_spd = 2;

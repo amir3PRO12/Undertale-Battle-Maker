@@ -1,27 +1,7 @@
 depth = -9998
-//dialogue box widgh and height.
-dialogue_box_width = 295;
-dialogue_box_height = 80;
-
-//the border is the amount of pixel the text is gonna be away from the dialogue box white board or you can say the edges or something like that.
-border_x = 8;
-border_y = 8;
 
 //this will be the separation vertically between the lines on each texts that is writting on the screen.
-dialogue_sep = 12;
-
-//this is the maximum width and height of where the text will ends and will create a new line and it goes on.
-dialogue_width = dialogue_box_width - border_x*2;
-dialogue_height = dialogue_box_height - border_y*2;
-
-
-#region //what the dialogue box will look like.
-dialogue_box_sprite = spr_dialoguebox;
-dialogue_box_image = 0;
-dialogue_box_image_spd = 0;
-dialogue_box_sprite_width = 0;
-dialogue_box_sprite_height = 0;
-#endregion
+dialogue_sep = 12
 
 //Page is like a book, when you are in a page for example page 1, you read it and go to the next page, the dialogue box is also like this.
 page = 0;
@@ -67,7 +47,29 @@ current_choice = 0
 // current library in use
 library = {}
 
-// We need that to make dialogue speed fully customisable(like stopping for a second to do an artistic pause or changing word bullets on pills in the middle of the dialogue)
+dialogue_box_width = 295
+dialogue_box_height = 80
+
+border_x = 8;
+border_y = 8;
+
+dialogue_width = dialogue_box_width - border_x*2;
+dialogue_height = dialogue_box_height - border_y*2;
+#region //what the dialogue box will look like.
+dialogue_box_sprite = spr_dialoguebox //_test
+dialogue_box_image = 0
+dialogue_box_image_spd = 0.1
+dialogue_box_sprite_width = 0
+dialogue_box_sprite_height = 0
+#endregion
+choosing_sprite = spr_soul_choose
+
+text_color = c_white
+text_color1 = c_white
+text_color2 = c_white
+text_color3 = c_white
+text_color4 = c_white
+
 language = "eng" 
 can_walk_while_dialogue = 0
 interact_object = obj_player //noone
@@ -83,9 +85,29 @@ face_width = 4
 library = []
 text_to_draw = ""
 text_spd_temp = 0
+line = 0
+last_space = 0
+space_number = 0
+newline_extra_y = 0
+temp_color = c_white
+chara_color[0] = c_white
+max_lines_on_page = 30
+for(i = 0; i<max_lines_on_page; i++)
+{
+last_space[i] = -1
+}
+dialogue_box_x = 0
+dialogue_box_y = 0
 
 is_shaking = 0
 text_y_temp = 0
+is_waving = 0
+wave_intensity_x = 1
+wave_speed_x = 1
+wave_shortness_x = 0
+wave_intensity_y = 1
+wave_speed_y = 1
+wave_shortness_y = 0
 shake_intensity = 1
 shake_x = 0
 shake_y = 0
@@ -98,4 +120,5 @@ text_length_temp = 0
 current_voice = voice_test
 chara_counter = 0
 debug_book_switch = 0
+
 event_user(0)

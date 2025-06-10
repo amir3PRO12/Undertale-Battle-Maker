@@ -1,7 +1,8 @@
 function scr_change_face(){
 	draw_chara_temp = draw_chara+1
-	symbols_number = 6
-	if string_copy(text_to_draw,draw_chara_temp,symbols_number) = "_face:"
+	syntax = "_face:" 
+	symbols_number = string_length(syntax)
+	if string_copy(text_to_draw,draw_chara_temp,symbols_number) = syntax
 	{
 	i = symbols_number
 	chara_temp = ""
@@ -16,6 +17,9 @@ function scr_change_face(){
 	text_length_temp-= i
 	dialogue_face_sprite = a
 	face_width = sprite_get_width(a) + 4
+return 1
 }
+else
+	return 0
 
 }

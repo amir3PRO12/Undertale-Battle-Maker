@@ -31,10 +31,13 @@ interact_key = (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("
 sprint_key = (keyboard_check(ord("X")) or keyboard_check(vk_shift) or keyboard_check(vk_lshift) or mouse_check_button(mb_right))
 #endregion
 
+	dance = false
+	
 #region //fixing the holding both arrow key on keyboard.
 if (down_key == true and up_key == true and keyboard_arrow_keys == true){
 	up_key = true;
 	down_key = false;
+	dance = true;
 } else if (left_key == true and right_key == true and keyboard_arrow_keys == true){
 	right_key = true;
 	left_key = false;
@@ -51,8 +54,8 @@ yspd = 0;
 
 #region //if pressed down key, set the key to 1, else if pressed up, set THAT key to 1, else, be 0. (It's For The Movement)
 if keyboard_arrow_keys == true and can_walk == true{
-	yspd = (down_key - up_key) * move_spd;
-	xspd = (right_key - left_key) * move_spd;
+	yspd = (down_key - up_key) * move_spd
+	xspd = (right_key - left_key) * move_spd
 }
 #endregion
 
@@ -64,6 +67,55 @@ if instance_exists(obj_player_stop){
 }
 #endregion
 #endregion
+
+#region //Collisions With Walls.
+if global.can_move_in_walls == false{
+	if place_meeting(x + xspd, y, [obj_wall, obj_t_wall])
+	{
+		xspd = 0;
+	}
+	if place_meeting(x, y + yspd, [obj_wall, obj_t_wall])
+	{
+		if !dance
+		yspd = 0;	
+		else
+		yspd = -yspd
+	}
+}
+#endregion
+
+
+
+#region //Collisions With Sticky Objects.
+if place_meeting(x + xspd, y, obj_sticky_wall){
+	if move_spd == 3{
+		move_spd = 2;	
+	}else if move_spd = 2{
+		move_spd = 1	
+	}else if move_spd = 1{
+		move_spd = 0.5	
+	}
+}
+if place_meeting(x, y + yspd, obj_sticky_wall){
+	if move_spd == 3{
+		move_spd = 2;	
+	}else if move_spd = 2{
+		move_spd = 1	
+	}else if move_spd = 1{
+		move_spd = 0.5	
+	}
+}
+#endregion
+
+#region //Collisions With Ice.
+if place_meeting(x + xspd, y, obj_ice_sliding){
+	can_move_in_ice = true;
+}
+if place_meeting(x, y + yspd, obj_ice_sliding){
+	can_move_in_ice = true;
+}
+#endregion
+
 
 #region //sets the sprite to where is gonna be when entering a room PLUS when you are walking/stopping.
 mask_index = sprite[DOWN];
@@ -104,46 +156,6 @@ if xspd == 0 and yspd == 0{
 }
 #endregion
 
-#region //Collisions With Walls.
-if global.can_move_in_walls == false{
-	if place_meeting(x + xspd, y, [obj_wall, obj_t_wall]){
-		xspd = 0;
-	}
-	if place_meeting(x, y + yspd, [obj_wall, obj_t_wall]){
-		yspd = 0;	
-	}
-}
-#endregion
-
-#region //Collisions With Sticky Objects.
-if place_meeting(x + xspd, y, obj_sticky_wall){
-	if move_spd == 3{
-		move_spd = 2;	
-	}else if move_spd = 2{
-		move_spd = 1	
-	}else if move_spd = 1{
-		move_spd = 0.5	
-	}
-}
-if place_meeting(x, y + yspd, obj_sticky_wall){
-	if move_spd == 3{
-		move_spd = 2;	
-	}else if move_spd = 2{
-		move_spd = 1	
-	}else if move_spd = 1{
-		move_spd = 0.5	
-	}
-}
-#endregion
-
-#region //Collisions With Ice.
-if place_meeting(x + xspd, y, obj_ice_sliding){
-	can_move_in_ice = true;
-}
-if place_meeting(x, y + yspd, obj_ice_sliding){
-	can_move_in_ice = true;
-}
-#endregion
 
 
 //Collisions With Ice Again, Making Sure It Works. (Idk what I am doing... ok? plus, there is a bug that if you hit something while sliding, it makes you get stuck...)

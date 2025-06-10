@@ -23,9 +23,7 @@ debug_library =
 			["_face:spr_sans_dialogue_test;Much to test","Choose what to ", 
 			[["Multiple lines","$choice_one$0"],
 			["Cycles","$choice_two$1"],// This choice leads to choice_two book 2
-			//["Speed","$choice_three$0"],
 			["Exit"]]]
-			
 			],
 			
 	choice_one: 
@@ -50,37 +48,36 @@ debug_library =
 // Library for tests
 test_library =
 	{
-	//Name of the dialogue library part
-	test:	// Array with all books inside
+	test:
 			[
-			// Book 0; Consecutive lines read one after another
 			["_face:spr_nosprite;Expecting much from this version?_pause:45; We're still in the middle of the development!","You better go visit Snowdin right now. We'll call you when we're done."],
-			
-			// Book 1; Lines read one after another then an array of choices and what they
-			// lead to. ["CHOICE TEXT", "$go_to_this_part$to_this_book"]
 			["_face:spr_nosprite;Are you still here?","What do you want?_voice:mus_silence;txt_speed:0.3;", 
 			[["Nothing","$nothing$0"],
 			["Anything","$anything$0"],
-			["I'm already leaving"]]],
+			["I'm already leaving"]]
+			],
 			
-			["_skip:0;_face:spr_toby_dog;txt_speed:0.25;You fool._pause:30; You have no idea of what's coming."]
+			["_skip:0;_shaking:0.5;_face:spr_toby_dog;txt_speed:0.25;You fool._pause:30; You have no idea of what's coming."]
 			
 			],
 			
 	anything: 
 			[
-				// \n - new line, same as ENTER on keyboard
 				["_face:spr_nosprite;Something _scr:scr_do_something;happened..."]
 			],
 			
 	nothing: 
 			[	
-				// \n - new line, same as ENTER on keyboard
 				["_face:spr_nosprite;Nothing happened..."]
 			],
 	}
 smol_objects_library =
 		{
+			sign_base:
+			[
+			["It is a sign."] 
+			],
+			
 			sign1:
 			[
 			["That's a sign N1. And it got a lot to say._skip:0;","_skip:3;",
@@ -93,13 +90,19 @@ smol_objects_library =
 			
 			sign2:
 			[
-			["That's a sign N2txt_speed:0.1;...txt_speed:0.5;\nSomething _face:spr_sans_dialogue_test;txt_speed:3;is not right_face:spr_nosprite;txt_speed:0.5; about it..."]
+			["That's a sign N2txt_speed:0.1;...txt_speed:0.5;_color:255; Something_color:16777215; is not right about it..."]
 			],
 			
 			sign3:
 			[
-			["That's a sign N3......","_shaking:4;DETERMINATIOOOOOOOOOOOOOOON","_shaking:0;..."]
+			["That's a sign N3......","_wavingx:0.5,30,0.2;_wavingy:1,120,0.25;DETERMINATIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOON","_wavingx:0,0,0;_wavingy:0,0,0;..."]
 			],
 		
 		}
+}
+
+library_name = 
+{
+part1_name:[["TEXT","text","text...",[["choice1"],["choice2","$part2_name$0"]]]],
+part2_name:[["yup"]]
 }

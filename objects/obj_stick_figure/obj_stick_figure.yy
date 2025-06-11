@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Snowdin_NPCs",
-    "path":"folders/Objects/Overworld/Snowdin/Snowdin_NPCs.yy",
+    "path":"folders/Objects/NPCs/Snowdin_NPCs.yy",
   },
   "parentObjectId":null,
   "persistent":false,

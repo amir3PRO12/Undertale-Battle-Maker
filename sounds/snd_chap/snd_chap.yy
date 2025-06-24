@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"voice_test",
+  "%Name":"snd_chap",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.031632654,
-  "name":"voice_test",
+  "duration":0.07256236,
+  "name":"snd_chap",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"voice_test.wav",
+  "soundFile":"snd_chap.wav",
   "type":0,
-  "volume":0.5,
+  "volume":1.0,
 }

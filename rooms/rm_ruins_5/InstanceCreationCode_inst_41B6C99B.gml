@@ -1,0 +1,1 @@
+descr_text = "sign_long_room2"

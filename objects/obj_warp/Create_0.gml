@@ -4,6 +4,10 @@ target_rm = 0;
 
 target_face = 0;
 
+is_special = 0
+
+function special(){}
+
 ///nicheCase, use this variable in one off type of scenarios where you need to do something
 ///Unusual, like switch rooms with a different effect
 

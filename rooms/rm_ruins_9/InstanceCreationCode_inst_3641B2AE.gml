@@ -1,0 +1,1 @@
+descr_text = "froggit_creepy_friend"

@@ -1,0 +1,1 @@
+descr_text = "tem_silly2"

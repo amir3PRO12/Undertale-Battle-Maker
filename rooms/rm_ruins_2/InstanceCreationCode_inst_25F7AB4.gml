@@ -1,0 +1,1 @@
+descr_text = "pointed_arrows1"

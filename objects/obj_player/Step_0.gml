@@ -27,22 +27,35 @@ if keyboard_arrow_keys == true{
 	up_key = (keyboard_check(vk_up));
 	down_key = (keyboard_check(vk_down));
 }
+interact_key = (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(ord("Z")) or keyboard_check_pressed(vk_space) or mouse_check_button_pressed(mb_left));
+sprint_key = (keyboard_check(ord("X")) or keyboard_check(vk_shift) or keyboard_check(vk_lshift) or mouse_check_button(mb_right))
 #endregion
 
+	dance = false
+	
 #region //fixing the holding both arrow key on keyboard.
 if (down_key == true and up_key == true and keyboard_arrow_keys == true){
 	up_key = true;
 	down_key = false;
+	dance = true;
 } else if (left_key == true and right_key == true and keyboard_arrow_keys == true){
 	right_key = true;
 	left_key = false;
 }
 #endregion
 
+can_walk = 1
+
+if !obj_dialoguebox_wip.can_walk_while_dialogue and obj_dialoguebox_wip.in_dialogue 
+{can_walk = 0
+xspd = 0;
+yspd = 0;
+	}
+
 #region //if pressed down key, set the key to 1, else if pressed up, set THAT key to 1, else, be 0. (It's For The Movement)
-if keyboard_arrow_keys == true{
-	yspd = (down_key - up_key) * move_spd;
-	xspd = (right_key - left_key) * move_spd;
+if keyboard_arrow_keys == true and can_walk == true{
+	yspd = (down_key - up_key) * move_spd
+	xspd = (right_key - left_key) * move_spd
 }
 #endregion
 
@@ -53,7 +66,88 @@ if instance_exists(obj_player_stop){
 	yspd = 0;
 }
 #endregion
+
+#region //sets the sprite to where is gonna be when entering a room PLUS when you are walking/stopping.
+mask_index = sprite[DOWN];
+if yspd == 0{
+	if xspd > 0 {
+		face = RIGHT;
+	}
+	if xspd < 0 {
+		face = LEFT;
+	}
+}
+if xspd > 0 and face == LEFT{
+	face = RIGHT;	
+}
+if xspd < 0 and face == RIGHT{
+	face = LEFT;	
+}
+if xspd == 0{
+	if yspd > 0{
+		face = DOWN;
+	}
+	if yspd < 0{
+		face = UP;
+	}
+}
+if yspd > 0 and face == UP{
+	face = DOWN;	
+}
+if yspd < 0 and face == DOWN{
+	face = UP;	
+}
+sprite_index = sprite[face];
 #endregion
+
+#region //Collisions With Walls.
+if global.can_move_in_walls == false{
+	if place_meeting(x + xspd, y, [obj_wall, obj_t_wall, obj_interactable_wall])
+	{
+		xspd = 0;
+	}
+	if place_meeting(x, y + yspd, [obj_wall, obj_t_wall, obj_interactable_wall])
+	{
+		if !dance
+		yspd = 0;	
+		else
+		yspd = -yspd
+	}
+}
+#endregion
+
+
+
+#region //Collisions With Sticky Objects.
+if place_meeting(x + xspd, y, obj_sticky_wall){
+	if move_spd == 3{
+		move_spd = 2;	
+	}else if move_spd = 2{
+		move_spd = 1	
+	}else if move_spd = 1{
+		move_spd = 0.5	
+	}
+}
+if place_meeting(x, y + yspd, obj_sticky_wall){
+	if move_spd == 3{
+		move_spd = 2;	
+	}else if move_spd = 2{
+		move_spd = 1	
+	}else if move_spd = 1{
+		move_spd = 0.5	
+	}
+}
+#endregion
+
+#region //Collisions With Ice.
+if place_meeting(x + xspd, y, obj_ice_sliding){
+	can_move_in_ice = true;
+}
+if place_meeting(x, y + yspd, obj_ice_sliding){
+	can_move_in_ice = true;
+}
+#endregion
+
 
 #region //sets the sprite to where is gonna be when entering a room PLUS when you are walking/stopping.
 mask_index = sprite[DOWN];
@@ -94,46 +188,6 @@ if xspd == 0 and yspd == 0{
 }
 #endregion
 
-#region //Collisions With Walls.
-if global.can_move_in_walls == false{
-	if place_meeting(x + xspd, y, [obj_wall, obj_t_wall]){
-		xspd = 0;
-	}
-	if place_meeting(x, y + yspd, [obj_wall, obj_t_wall]){
-		yspd = 0;	
-	}
-}
-#endregion
-
-#region //Collisions With Sticky Objects.
-if place_meeting(x + xspd, y, obj_sticky_wall){
-	if move_spd == 3{
-		move_spd = 2;	
-	}else if move_spd = 2{
-		move_spd = 1	
-	}else if move_spd = 1{
-		move_spd = 0.5	
-	}
-}
-if place_meeting(x, y + yspd, obj_sticky_wall){
-	if move_spd == 3{
-		move_spd = 2;	
-	}else if move_spd = 2{
-		move_spd = 1	
-	}else if move_spd = 1{
-		move_spd = 0.5	
-	}
-}
-#endregion
-
-#region //Collisions With Ice.
-if place_meeting(x + xspd, y, obj_ice_sliding){
-	can_move_in_ice = true;
-}
-if place_meeting(x, y + yspd, obj_ice_sliding){
-	can_move_in_ice = true;
-}
-#endregion
 
 
 //Collisions With Ice Again, Making Sure It Works. (Idk what I am doing... ok? plus, there is a bug that if you hit something while sliding, it makes you get stuck...)
@@ -156,7 +210,7 @@ y += yspd;
 x += xspd;
 
 #region //Press X To Run
-if (keyboard_check(ord("X")) or keyboard_check(vk_shift) or keyboard_check(vk_lshift) or mouse_check_button(mb_right)){
+if sprint_key{
 	image_speed = 2;
 	move_spd = 3;
 } else{
@@ -165,6 +219,34 @@ if (keyboard_check(ord("X")) or keyboard_check(vk_shift) or keyboard_check(vk_ls
 }
 #endregion
 
+#region //Interaction with object
+if interact_key
+if !obj_dialoguebox_wip.in_dialogue 
+{object_to_interact = obj_interactable
+	if instance_exists(object_to_interact)
+	{var temp_collision = 0
+	if face = DOWN 
+	{object_to_interact = collision_ellipse(x-8,y,x+8,y+24,object_to_interact,1,1)
+		temp_collision = 1}
+	if face = UP
+	{object_to_interact = collision_ellipse(x-8,y,x+8,y-16,object_to_interact,1,1)
+		temp_collision = 1}
+	if face = RIGHT 
+	{object_to_interact = collision_ellipse(x,y-6,x+16,y+14,object_to_interact,1,1)
+		temp_collision = 1} 
+	if face = LEFT
+	{object_to_interact = collision_ellipse(x,y-6,x-16,y+14,object_to_interact,1,1)
+		temp_collision = 1}
+if temp_collision
+with (object_to_interact)
+{
+if obj_player.object_to_interact = self.id
+event_user(0)
+}
+}
+
+}
+#endregion
 ////LVing UP
 //HP = MAX_HP; 
 //MAX_HP = 20 + (LV - 1) * 4; //If MAX_HP is 20 and your LV is 2, it turns your MAX_HP to 24... yeah... um... idk math...

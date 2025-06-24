@@ -1,1 +1,0 @@
-sign_message = "sign1"

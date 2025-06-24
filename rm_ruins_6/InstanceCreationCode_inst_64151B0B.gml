@@ -1,1 +1,0 @@
-descr_text = "vegetoid_outa_here"

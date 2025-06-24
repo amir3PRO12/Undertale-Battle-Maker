@@ -1,1 +1,0 @@
-descr_text = "sign_rock_room1"

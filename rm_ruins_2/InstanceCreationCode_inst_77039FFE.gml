@@ -1,1 +1,0 @@
-descr_text = "pointed_arrows2"

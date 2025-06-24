@@ -13,13 +13,17 @@ right_key = false;
 up_key = false;
 down_key = false;
 
+interact_key = false
+object_to_interact = noone
+sprint_key = false
+dance = false
+
 //movement speed for the character on keyboard.
 move_spd = 2;
 
 //X and Y speed for the character on keyboard.
 xspd = 0;
 yspd = 0;
-
 //Sprite Facing
 sprite[RIGHT] = spr_player_frisk_right_walking;
 sprite[UP] = spr_player_frisk_up_walking;
@@ -27,7 +31,8 @@ sprite[LEFT] = spr_player_frisk_left_walking;
 sprite[DOWN] = spr_player_frisk_down_walking;
 
 face = DOWN;
-
+interact_collision_x = x 
+interact_collision_y = y
 //Mouse Stuff
 
 //left, right, and middle click stuff for the mouse.
@@ -41,6 +46,7 @@ mouse_move_spd = 0;
 //X and Y speed for the character on mouse.
 xspdmouse = 0;
 yspdmouse = 0;
+can_walk = 1
 
 //Main Objects
 global.can_move_in_main_objects = false;
@@ -65,7 +71,6 @@ global.can_move_in_ruins_object = false;
 
 //Move In Snowdin Objects or not.
 global.can_move_in_snowdin_object = false;
-
 
 //Player/Frisk/Chara Stats
 PLAYER_ID = 0;

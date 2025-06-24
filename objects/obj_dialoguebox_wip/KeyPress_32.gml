@@ -1,1 +1,0 @@
-room_goto_next() //Don't mind that

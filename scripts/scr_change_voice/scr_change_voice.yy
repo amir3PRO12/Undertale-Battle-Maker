@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_change_voice",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_change_voice",
+  "parent":{
+    "name":"Dialogue_Scripts",
+    "path":"folders/Scripts/Dialogue_Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,1 @@
+descr_text = "rock_go_to_hell"

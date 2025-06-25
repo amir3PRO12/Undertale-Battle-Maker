@@ -1,15 +1,21 @@
 {
   "$GMObject":"",
   "%Name":"obj_npc_temmie",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_npc_temmie",
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins_NPCs",
-    "path":"folders/Objects/NPCs/Ruins_NPCs.yy",
+    "path":"folders/Objects/Overworld/Ruins/Ruins_NPCs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_interactable_wall",
+    "path":"objects/obj_interactable_wall/obj_interactable_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

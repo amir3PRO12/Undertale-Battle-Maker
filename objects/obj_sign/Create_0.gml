@@ -1,3 +1,2 @@
-depth = -bbox_bottom;
-// Inherit the parent event
-sign_message = "sign_base"
+event_inherited()
+descr_text = "sign_base"

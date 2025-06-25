@@ -1,0 +1,1 @@
+descr_text = "froggit_spike_room"

@@ -66,15 +66,47 @@ if instance_exists(obj_player_stop){
 	yspd = 0;
 }
 #endregion
+
+#region //sets the sprite to where is gonna be when entering a room PLUS when you are walking/stopping.
+mask_index = sprite[DOWN];
+if yspd == 0{
+	if xspd > 0 {
+		face = RIGHT;
+	}
+	if xspd < 0 {
+		face = LEFT;
+	}
+}
+if xspd > 0 and face == LEFT{
+	face = RIGHT;	
+}
+if xspd < 0 and face == RIGHT{
+	face = LEFT;	
+}
+if xspd == 0{
+	if yspd > 0{
+		face = DOWN;
+	}
+	if yspd < 0{
+		face = UP;
+	}
+}
+if yspd > 0 and face == UP{
+	face = DOWN;	
+}
+if yspd < 0 and face == DOWN{
+	face = UP;	
+}
+sprite_index = sprite[face];
 #endregion
 
 #region //Collisions With Walls.
 if global.can_move_in_walls == false{
-	if place_meeting(x + xspd, y, [obj_wall, obj_t_wall])
+	if place_meeting(x + xspd, y, [obj_wall, obj_t_wall, obj_interactable_wall])
 	{
 		xspd = 0;
 	}
-	if place_meeting(x, y + yspd, [obj_wall, obj_t_wall])
+	if place_meeting(x, y + yspd, [obj_wall, obj_t_wall, obj_interactable_wall])
 	{
 		if !dance
 		yspd = 0;	
@@ -190,25 +222,27 @@ if sprint_key{
 #region //Interaction with object
 if interact_key
 if !obj_dialoguebox_wip.in_dialogue 
-{object_to_interact = instance_nearest(x+xspd*4,y+yspd*4,obj_interactable)
-	if face = DOWN 
-	{interact_collision_x = 0
-	interact_collision_y = 16}
-	if face = UP
-	{interact_collision_x = 0
-	interact_collision_y = -16}
-	if face = RIGHT 
-	{interact_collision_x = 16
-	interact_collision_y = 8} 
-	if face = LEFT
-	{interact_collision_x = -16
-	interact_collision_y = 8}
+{object_to_interact = obj_interactable
 	if instance_exists(object_to_interact)
-if collision_line(x,y,x+interact_collision_x,y+interact_collision_y,object_to_interact,1,1)
+	{var temp_collision = 0
+	if face = DOWN 
+	{object_to_interact = collision_ellipse(x-8,y,x+8,y+24,object_to_interact,1,1)
+		temp_collision = 1}
+	if face = UP
+	{object_to_interact = collision_ellipse(x-8,y,x+8,y-16,object_to_interact,1,1)
+		temp_collision = 1}
+	if face = RIGHT 
+	{object_to_interact = collision_ellipse(x,y-6,x+16,y+14,object_to_interact,1,1)
+		temp_collision = 1} 
+	if face = LEFT
+	{object_to_interact = collision_ellipse(x,y-6,x-16,y+14,object_to_interact,1,1)
+		temp_collision = 1}
+if temp_collision
 with (object_to_interact)
 {
 if obj_player.object_to_interact = self.id
 event_user(0)
+}
 }
 
 }

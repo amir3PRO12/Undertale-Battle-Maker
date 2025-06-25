@@ -17,6 +17,8 @@
     {"name":"inst_3923820E","path":"rooms/rm_ruins_15/rm_ruins_15.yy",},
     {"name":"inst_6727D271","path":"rooms/rm_ruins_15/rm_ruins_15.yy",},
     {"name":"inst_A9C1D02","path":"rooms/rm_ruins_15/rm_ruins_15.yy",},
+    {"name":"inst_3025D26B","path":"rooms/rm_ruins_15/rm_ruins_15.yy",},
+    {"name":"inst_5FE952E5","path":"rooms/rm_ruins_15/rm_ruins_15.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -35,6 +37,8 @@
         {"$GMRInstance":"v2","%Name":"inst_6DD3EF26","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DD3EF26","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":2.5,"x":300.0,"y":180.0,},
         {"$GMRInstance":"v2","%Name":"inst_22C40075","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22C40075","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":21.25,"scaleY":1.0,"x":170.0,"y":112.0,},
         {"$GMRInstance":"v2","%Name":"inst_7AA0F5DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7AA0F5DD","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.5,"x":348.0,"y":140.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3025D26B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3025D26B","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.7068043,"scaleY":0.75,"x":219.65443,"y":172.0,},
+        {"$GMRInstance":"v2","%Name":"inst_5FE952E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FE952E5","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2862406,"scaleY":1.3125,"x":144.6355,"y":167.5,},
       ],"layers":[],"name":"Walls","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_7","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_7","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":17,"TileCompressedData":[-89,-2147483648,1,0,-114,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"til_ruins","path":"tilesets/til_ruins/til_ruins.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_5","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_5","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":17,"TileCompressedData":[-88,-2147483648,-3,0,-54,-2147483648,-2,0,-57,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"til_ruins","path":"tilesets/til_ruins/til_ruins.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
@@ -65,7 +69,7 @@
   "roomSettings":{
     "Height":240,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":340,
   },
   "sequenceId":null,

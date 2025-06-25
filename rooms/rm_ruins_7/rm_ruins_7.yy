@@ -16,6 +16,7 @@
     {"name":"inst_1BD77990","path":"rooms/rm_ruins_7/rm_ruins_7.yy",},
     {"name":"inst_4750E9D6","path":"rooms/rm_ruins_7/rm_ruins_7.yy",},
     {"name":"inst_2ACE6DC2","path":"rooms/rm_ruins_7/rm_ruins_7.yy",},
+    {"name":"inst_39BD2CAD","path":"rooms/rm_ruins_7/rm_ruins_7.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -33,6 +34,7 @@
         {"$GMRInstance":"v2","%Name":"inst_547502A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_547502A5","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.8125,"scaleY":0.6354065,"x":61.5,"y":205.08325,},
         {"$GMRInstance":"v2","%Name":"inst_5D0FB4E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D0FB4E5","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5024981,"scaleY":8.75,"x":60.980015,"y":130.0,},
         {"$GMRInstance":"v2","%Name":"inst_1BD77990","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1BD77990","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.6249995,"scaleY":3.875,"x":121.0,"y":49.0,},
+        {"$GMRInstance":"v2","%Name":"inst_39BD2CAD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39BD2CAD","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2130678,"scaleY":1.5625,"x":120.704544,"y":113.5,},
       ],"layers":[],"name":"Walls","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_4","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_4","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":14,"TileCompressedData":[
           -75,-2147483648,2,173,204,-12,-2147483648,3,173,140,0,-10,-2147483648,-5,0,-10,-2147483648,-4,0,-9,-2147483648,
@@ -80,7 +82,7 @@
   "roomSettings":{
     "Height":240,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":280,
   },
   "sequenceId":null,

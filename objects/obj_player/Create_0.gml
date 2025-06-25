@@ -18,6 +18,9 @@ object_to_interact = noone
 sprint_key = false
 dance = false
 
+inventory_key = false
+inventory = instance_create_depth(0,0,0,obj_inventory)
+
 //movement speed for the character on keyboard.
 move_spd = 2;
 

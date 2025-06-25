@@ -87,10 +87,10 @@ if draw_chara < text_length_temp{
 	
 	{draw_chara++
 		dialogue_face_image += 0.1
-		if string_char_at(text_to_draw,draw_chara) != " " and !audio_is_playing(current_voice) 
+		if string_char_at(text_to_draw,draw_chara) != " "  and !audio_is_playing(current_voice)
 		audio_play_sound(current_voice,100,0)
-		//if string_char_at(text_to_draw,draw_chara) = " "
-		//audio_stop_sound(current_voice)
+		if string_char_at(text_to_draw,draw_chara) = " "
+		audio_stop_sound(current_voice)
 	}}
 	draw_chara = clamp(draw_chara, 0, text_length_temp);}
 }
@@ -129,6 +129,8 @@ if max(auto_skip,accept_key){
 							// Exit dialogue and step
 							setup = false;
 							in_dialogue = false
+							if instance_exists(interact_object)
+							interact_object.alarm[8] = 1
 							return
 						}
 				}
@@ -162,6 +164,9 @@ if max(auto_skip,accept_key){
 			}
 		}else{
 			// exit dialogue, ask for setup next time
+				in_dialogue = false
+				if instance_exists(interact_object)
+				interact_object.alarm[8] = 1
 			setup = false
 			in_dialogue = false
 		}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_flowey_laugh_low",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":6.3811336,
+  "name":"snd_flowey_laugh_low",
+  "parent":{
+    "name":"Neutral END",
+    "path":"folders/Sounds/Sound Effect/Neutral END.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_flowey_laugh_low.ogg",
+  "type":0,
+  "volume":1.0,
+}

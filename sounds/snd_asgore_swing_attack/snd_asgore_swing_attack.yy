@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_asgore_swing_attack",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.2437189,
+  "name":"snd_asgore_swing_attack",
+  "parent":{
+    "name":"Monster Attack Sound Effect",
+    "path":"folders/Sounds/Sound Effect/Monster Attack Sound Effect.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_asgore_swing_attack.wav",
+  "type":0,
+  "volume":1.0,
+}

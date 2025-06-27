@@ -12,8 +12,8 @@
   "duration":32.01306,
   "name":"mus_papyrus",
   "parent":{
-    "name":"Musics",
-    "path":"folders/Musics.yy",
+    "name":"Events",
+    "path":"folders/Musics/Events.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

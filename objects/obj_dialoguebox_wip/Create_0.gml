@@ -117,7 +117,7 @@ skip_spd = 5 //That kinda thing instead of instaskipping
 can_skip = 1
 auto_skip = 0
 text_length_temp = 0
-current_voice = voice_test
+current_voice = snd_voice_test
 chara_counter = 0
 debug_book_switch = 0
 

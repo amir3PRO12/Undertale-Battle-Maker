@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_settings_summer",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":34.00127,
+  "name":"mus_settings_summer",
+  "parent":{
+    "name":"Settings",
+    "path":"folders/Musics/Menus/Settings.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_settings_summer.ogg",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_hardmode",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.5004988,
+  "name":"snd_hardmode",
+  "parent":{
+    "name":"Events",
+    "path":"folders/Sounds/Sound Effect/Events.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_hardmode.ogg",
+  "type":0,
+  "volume":1.0,
+}

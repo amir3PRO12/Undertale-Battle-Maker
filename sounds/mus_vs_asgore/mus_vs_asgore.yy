@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_vs_asgore",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":154.08327,
+  "name":"mus_vs_asgore",
+  "parent":{
+    "name":"Bosses",
+    "path":"folders/Musics/Bosses.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_vs_asgore.ogg",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_monster_undeaths",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.0948299,
+  "name":"snd_monster_undeaths",
+  "parent":{
+    "name":"Game Over",
+    "path":"folders/Sounds/Sound Effect/Game Over.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_monster_undeaths.ogg",
+  "type":0,
+  "volume":1.0,
+}

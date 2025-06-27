@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_gaster_blaster_big_load",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.0637642,
+  "name":"snd_gaster_blaster_big_load",
+  "parent":{
+    "name":"Monster Attack Sound Effect",
+    "path":"folders/Sounds/Sound Effect/Monster Attack Sound Effect.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_gaster_blaster_big_load.wav",
+  "type":0,
+  "volume":1.0,
+}

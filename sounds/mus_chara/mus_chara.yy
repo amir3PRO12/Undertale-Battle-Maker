@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_chara",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":8.045714,
+  "name":"mus_chara",
+  "parent":{
+    "name":"Genocide END",
+    "path":"folders/Musics/Genocide END.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_chara.ogg",
+  "type":0,
+  "volume":1.0,
+}

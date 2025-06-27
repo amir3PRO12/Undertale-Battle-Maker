@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_snowdin_town",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":2,
+  "conversionMode":0,
+  "duration":75.62594,
+  "name":"mus_snowdin_town",
+  "parent":{
+    "name":"Snowdin",
+    "path":"folders/Musics/Undergrounds/Snowdin.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_snowdin_town.ogg",
+  "type":0,
+  "volume":1.0,
+}

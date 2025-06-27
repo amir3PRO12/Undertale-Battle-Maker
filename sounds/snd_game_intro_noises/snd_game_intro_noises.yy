@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_game_intro_noises",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.8429933,
+  "name":"snd_game_intro_noises",
+  "parent":{
+    "name":"Story",
+    "path":"folders/Sounds/Sound Effect/Story.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_game_intro_noises.ogg",
+  "type":0,
+  "volume":1.0,
+}

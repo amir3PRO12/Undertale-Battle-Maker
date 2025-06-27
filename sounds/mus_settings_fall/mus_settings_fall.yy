@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_settings_fall",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":54.870205,
+  "name":"mus_settings_fall",
+  "parent":{
+    "name":"Settings",
+    "path":"folders/Musics/Menus/Settings.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_settings_fall.ogg",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_hit_damage",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.55727893,
+  "name":"snd_hit_damage",
+  "parent":{
+    "name":"Attack Sound Effect",
+    "path":"folders/Sounds/Sound Effect/Attack Sound Effect.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_hit_damage.wav",
+  "type":0,
+  "volume":1.0,
+}

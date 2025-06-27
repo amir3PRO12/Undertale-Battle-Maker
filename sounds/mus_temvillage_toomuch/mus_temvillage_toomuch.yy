@@ -12,8 +12,8 @@
   "duration":354.46634,
   "name":"mus_temvillage_toomuch",
   "parent":{
-    "name":"Musics",
-    "path":"folders/Musics.yy",
+    "name":"Waterfall",
+    "path":"folders/Musics/Undergrounds/Waterfall.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

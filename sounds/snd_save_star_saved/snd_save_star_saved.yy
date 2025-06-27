@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_save_star_saved",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.5659864,
+  "name":"snd_save_star_saved",
+  "parent":{
+    "name":"Underground",
+    "path":"folders/Sounds/Sound Effect/Underground.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_save_star_saved.wav",
+  "type":0,
+  "volume":1.0,
+}

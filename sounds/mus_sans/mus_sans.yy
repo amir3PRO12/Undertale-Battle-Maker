@@ -12,8 +12,8 @@
   "duration":22.5161,
   "name":"mus_sans",
   "parent":{
-    "name":"Musics",
-    "path":"folders/Musics.yy",
+    "name":"Events",
+    "path":"folders/Musics/Events.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

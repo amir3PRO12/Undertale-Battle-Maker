@@ -12,8 +12,8 @@
   "duration":69.34494,
   "name":"mus_ruins_toomuch",
   "parent":{
-    "name":"Musics",
-    "path":"folders/Musics.yy",
+    "name":"Ruins",
+    "path":"folders/Musics/Undergrounds/Ruins.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

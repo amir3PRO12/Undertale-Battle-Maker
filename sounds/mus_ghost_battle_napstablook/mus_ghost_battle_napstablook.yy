@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_ghost_battle_napstablook",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":51.21016,
+  "name":"mus_ghost_battle_napstablook",
+  "parent":{
+    "name":"Bosses",
+    "path":"folders/Musics/Bosses.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_ghost_battle_napstablook.ogg",
+  "type":0,
+  "volume":1.0,
+}

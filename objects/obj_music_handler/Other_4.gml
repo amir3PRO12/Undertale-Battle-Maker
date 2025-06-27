@@ -89,9 +89,9 @@ case rm_ruins_30:
 case rm_ruins_31:
 case rm_ruins_33:
 if global.Ruins_Genocide == true{
-	if !audio_is_playing(mus_fallendown_toomuch){
+	if !audio_is_playing(mus_fallen_down_too_much){
 		audio_stop_all();
-		audio_play_sound(mus_fallendown_toomuch, 100, true, 1, 0, 1);
+		audio_play_sound(mus_fallen_down_too_much, 100, true, 1, 0, 1);
 	}
 }else if global.Ruins_Pacifist{
 	if !audio_is_playing(mus_home){
@@ -109,9 +109,9 @@ if global.Ruins_Genocide == true{
 		audio_play_sound(mus_home, 100, true, 1, 0, 1);
 	}
 }else if global.Toriel_Dead == true{
-	if !audio_is_playing(mus_fallendown_toomuch){
+	if !audio_is_playing(mus_fallen_down_too_much){
 		audio_stop_all();
-		audio_play_sound(mus_fallendown_toomuch, 100, true, 1, 0, 1);
+		audio_play_sound(mus_fallen_down_too_much, 100, true, 1, 0, 1);
 	}
 }
 break
@@ -336,9 +336,9 @@ switch(room){
 	break
 	case rm_snowdin_8:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 0.5);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 0.5);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_snowy){
@@ -384,9 +384,9 @@ switch(room){
 	case rm_snowdin_11:
 	case rm_snowdin_12:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 0.5);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 0.5);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_snowy){
@@ -432,9 +432,9 @@ switch(room){
 	break
 	case rm_snowdin_16:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 0.5);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 0.5);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_snowy){
@@ -551,14 +551,14 @@ switch(room){
 	break
 	case rm_snowdin_25:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_town){
+		if !audio_is_playing(mus_snowdin_town){
 			audio_stop_all();
-			audio_play_sound(mus_town, 100, true, 1, 0, 0.3);
+			audio_play_sound(mus_snowdin_town, 100, true, 1, 0, 0.3);
 		}
 	}else if global.Snowdin_Pacifist{
-		if !audio_is_playing(mus_town){
+		if !audio_is_playing(mus_snowdin_town){
 			audio_stop_all();
-			audio_play_sound(mus_town, 100, true, 1, 0, 1);
+			audio_play_sound(mus_snowdin_town, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_True_Pacifist == true{
 		if !audio_is_playing(mus_reunited){
@@ -566,17 +566,17 @@ switch(room){
 			audio_play_sound(mus_reunited, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_Neutral == true{
-		if !audio_is_playing(mus_town){
+		if !audio_is_playing(mus_snowdin_town){
 			audio_stop_all();
-			audio_play_sound(mus_town, 100, true, 1, 0, 1);	
+			audio_play_sound(mus_snowdin_town, 100, true, 1, 0, 1);	
 		}
 	}
 	break
 	case rm_snowdin_26:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 0.5);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 0.5);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_silence){
@@ -597,14 +597,14 @@ switch(room){
 	break
 	case rm_snowdin_27:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_town){
+		if !audio_is_playing(mus_snowdin_town){
 			audio_stop_all();
-			audio_play_sound(mus_town, 100, true, 1, 0, 0.3);
+			audio_play_sound(mus_snowdin_town, 100, true, 1, 0, 0.3);
 		}
 	}else if global.Snowdin_Pacifist{
-		if !audio_is_playing(mus_town){
+		if !audio_is_playing(mus_snowdin_town){
 			audio_stop_all();
-			audio_play_sound(mus_town, 100, true, 1, 0, 1);
+			audio_play_sound(mus_snowdin_town, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_True_Pacifist == true{
 		if !audio_is_playing(mus_reunited){
@@ -612,17 +612,17 @@ switch(room){
 			audio_play_sound(mus_reunited, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_Neutral == true{
-		if !audio_is_playing(mus_town){
+		if !audio_is_playing(mus_snowdin_town){
 			audio_stop_all();
-			audio_play_sound(mus_town, 100, true, 1, 0, 1);	
+			audio_play_sound(mus_snowdin_town, 100, true, 1, 0, 1);	
 		}
 	}
 	break
 	case rm_snowdin_28:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 1);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_silence){
@@ -668,14 +668,14 @@ switch(room){
 	case rm_snowdin_31:
 	case rm_snowdin_32:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_town){
+		if !audio_is_playing(mus_snowdin_town){
 			audio_stop_all();
-			audio_play_sound(mus_town, 100, true, 1, 0, 0.3);
+			audio_play_sound(mus_snowdin_town, 100, true, 1, 0, 0.3);
 		}
 	}else if global.Snowdin_Pacifist{
-		if !audio_is_playing(mus_town){
+		if !audio_is_playing(mus_snowdin_town){
 			audio_stop_all();
-			audio_play_sound(mus_town, 100, true, 1, 0, 1);
+			audio_play_sound(mus_snowdin_town, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_True_Pacifist == true{
 		if !audio_is_playing(mus_reunited){
@@ -683,17 +683,17 @@ switch(room){
 			audio_play_sound(mus_reunited, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_Neutral == true{
-		if !audio_is_playing(mus_town){
+		if !audio_is_playing(mus_snowdin_town){
 			audio_stop_all();
-			audio_play_sound(mus_town, 100, true, 1, 0, 1);	
+			audio_play_sound(mus_snowdin_town, 100, true, 1, 0, 1);	
 		}
 	}
 	break
 	case rm_snowdin_33:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 0.5);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 0.5);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_silence){
@@ -714,9 +714,9 @@ switch(room){
 	break
 	case rm_snowdin_35:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 0.5);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 0.5);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_papyrus){
@@ -737,9 +737,9 @@ switch(room){
 	break
 	case rm_snowdin_36:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 0.5);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 0.5);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_sans){
@@ -761,9 +761,9 @@ switch(room){
 	case rm_snowdin_37:
 	case rm_snowdin_38:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 0.5);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 0.5);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_sans){
@@ -807,9 +807,9 @@ switch(room){
 	break
 	case rm_snowdin_40:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 1);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_dog_shrine_2){
@@ -830,9 +830,9 @@ switch(room){
 	break
 	case rm_snowdin_41:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 1);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_silence){
@@ -853,9 +853,9 @@ switch(room){
 	break
 	case rm_snowdin_42:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 1);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_sans){
@@ -876,9 +876,9 @@ switch(room){
 	break
 	case rm_snowdin_43:
 	if global.Snowdin_Genocide == true{
-		if !audio_is_playing(mus_toomuch){
+		if !audio_is_playing(mus_too_much){
 			audio_stop_all();
-			audio_play_sound(mus_toomuch, 100, true, 1, 0, 1);
+			audio_play_sound(mus_too_much, 100, true, 1, 0, 1);
 		}
 	}else if global.Snowdin_Pacifist{
 		if !audio_is_playing(mus_silence){

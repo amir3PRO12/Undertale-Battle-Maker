@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_cast_7",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":21.234648,
+  "name":"mus_cast_7",
+  "parent":{
+    "name":"True Pacifist END",
+    "path":"folders/Musics/True Pacifist END.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_cast_7.ogg",
+  "type":0,
+  "volume":1.0,
+}

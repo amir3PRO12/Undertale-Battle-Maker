@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_asriel_dreemurr_part2_loop",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":106.666664,
+  "name":"mus_asriel_dreemurr_part2_loop",
+  "parent":{
+    "name":"True Pacifist END",
+    "path":"folders/Musics/True Pacifist END.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_asriel_dreemurr_part2_loop.ogg",
+  "type":0,
+  "volume":1.0,
+}

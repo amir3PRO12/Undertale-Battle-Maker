@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_crickets",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":39.64372,
+  "name":"mus_crickets",
+  "parent":{
+    "name":"True Pacifist END",
+    "path":"folders/Musics/True Pacifist END.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_crickets.ogg",
+  "type":0,
+  "volume":1.0,
+}

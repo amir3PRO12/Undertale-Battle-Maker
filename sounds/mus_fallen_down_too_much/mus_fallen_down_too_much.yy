@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_fallen_down_too_much",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":320,
+  "compression":2,
+  "conversionMode":0,
+  "duration":182.04436,
+  "name":"mus_fallen_down_too_much",
+  "parent":{
+    "name":"Events",
+    "path":"folders/Musics/Events.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"mus_fallen_down_too_much.ogg",
+  "type":1,
+  "volume":1.0,
+}

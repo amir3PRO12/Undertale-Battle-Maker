@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_heart_ache_vs_toriel",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":108.43429,
+  "name":"mus_heart_ache_vs_toriel",
+  "parent":{
+    "name":"Bosses",
+    "path":"folders/Musics/Bosses.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_heart_ache_vs_toriel.ogg",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_menu_confirm",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.18716553,
+  "name":"snd_menu_confirm",
+  "parent":{
+    "name":"Menu And Battle",
+    "path":"folders/Sounds/Sound Effect/Menu And Battle.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_menu_confirm.wav",
+  "type":0,
+  "volume":1.0,
+}

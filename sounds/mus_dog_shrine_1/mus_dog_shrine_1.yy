@@ -12,8 +12,8 @@
   "duration":48.024036,
   "name":"mus_dog_shrine_1",
   "parent":{
-    "name":"Musics",
-    "path":"folders/Musics.yy",
+    "name":"Snowdin",
+    "path":"folders/Musics/Undergrounds/Snowdin.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

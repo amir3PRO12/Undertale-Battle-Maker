@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_alphys_fix",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":3.641179,
+  "name":"snd_alphys_fix",
+  "parent":{
+    "name":"Underground",
+    "path":"folders/Sounds/Sound Effect/Underground.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_alphys_fix.ogg",
+  "type":0,
+  "volume":1.0,
+}

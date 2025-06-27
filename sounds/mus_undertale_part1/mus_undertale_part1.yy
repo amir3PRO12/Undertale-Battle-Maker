@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_undertale_part1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":179.99094,
+  "name":"mus_undertale_part1",
+  "parent":{
+    "name":"New Home",
+    "path":"folders/Musics/Undergrounds/New Home.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_undertale_part1.ogg",
+  "type":0,
+  "volume":1.0,
+}

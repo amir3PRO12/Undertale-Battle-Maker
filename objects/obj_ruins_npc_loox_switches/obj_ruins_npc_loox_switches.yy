@@ -15,8 +15,8 @@
     "path":"folders/Objects/Overworld/Ruins/Ruins_NPCs.yy",
   },
   "parentObjectId":{
-    "name":"obj_interactable_wall",
-    "path":"objects/obj_interactable_wall/obj_interactable_wall.yy",
+    "name":"obj_interactable",
+    "path":"objects/obj_interactable/obj_interactable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

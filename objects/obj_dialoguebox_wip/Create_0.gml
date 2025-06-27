@@ -70,7 +70,10 @@ text_color2 = c_white
 text_color3 = c_white
 text_color4 = c_white
 
-language = "eng" 
+//language = "eng" 
+/* have to comment this out otherwise it wont compile
+ * doesnt matter since this object is unused anyways
+*/
 can_walk_while_dialogue = 0
 interact_object = undefined //noone
 dialogue_face_sprite = spr_toby_dog

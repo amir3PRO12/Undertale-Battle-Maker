@@ -1,2 +1,4 @@
 event_inherited()
-descr_text = "sign_base"
+dialogue = [
+    dialog("sign_base", -1, 1, voice_test)
+];

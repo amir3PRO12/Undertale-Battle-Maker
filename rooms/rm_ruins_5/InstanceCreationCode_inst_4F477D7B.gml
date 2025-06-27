@@ -4,7 +4,7 @@ target_y = 135;
 
 is_special = 1
 
-target_face = LEFT;
+target_face = DIRECTION.Left;
 
 function special(){
 	if obj_ruins_race_finish.is_active = 1

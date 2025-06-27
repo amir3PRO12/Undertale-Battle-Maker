@@ -6,7 +6,7 @@
   "name":"scr_rock_go_to_hell",
   "parent":{
     "name":"dialogue_scripts",
-    "path":"folders/Scripts/Dialogue_Scripts/dialogue_scripts.yy",
+    "path":"folders/Scripts/Dialogue Scripts/dialogue_scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

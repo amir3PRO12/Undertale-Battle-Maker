@@ -3,7 +3,6 @@
   "%Name":"obj_npc_temmie_painted",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_npc_temmie_painted",
@@ -13,8 +12,8 @@
     "path":"folders/Objects/Overworld/Ruins/Ruins_NPCs.yy",
   },
   "parentObjectId":{
-    "name":"obj_interactable_wall",
-    "path":"objects/obj_interactable_wall/obj_interactable_wall.yy",
+    "name":"obj_interactable",
+    "path":"objects/obj_interactable/obj_interactable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

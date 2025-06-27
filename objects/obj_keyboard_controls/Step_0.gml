@@ -5,20 +5,13 @@ if (keyboard_check_pressed(vk_f1)){
 if (keyboard_check_pressed(vk_f2)){
 	room_restart()	
 }
-
+if (keyboard_check_pressed(vk_space)) {
+    trigger_textbox("the quick fox jumped over the lazy dogs", true, 1, voice_test, spr_mugshot_sans, true, true, false, fnt_sans);
+}
 if (keyboard_check_pressed(vk_f3) and Debug_Mode == false){
 	Debug_Mode = true;
 } else if (keyboard_check_pressed(vk_f3) and Debug_Mode == true){
 	Debug_Mode = false;
-}
-
-if keyboard_check_pressed(vk_space){
-	Create_Dialogue([
-	{
-	name: "Chara",
-	msg: "It's Working Hopefully..."
-	}
-	])
 }
 
 if Debug_Mode == true{

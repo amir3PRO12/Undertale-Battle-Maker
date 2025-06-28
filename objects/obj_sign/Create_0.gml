@@ -1,4 +1,3 @@
-event_inherited()
-dialogue = [
-    dialog("sign_base", -1, 1, voice_test)
-];
+depth = -bbox_bottom;
+// Inherit the parent event
+sign_message = "sign_base"

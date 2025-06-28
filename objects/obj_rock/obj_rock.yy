@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_rock",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_rock",
   "overriddenProperties":[],

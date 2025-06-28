@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_check_color",
   "parent":{
-    "name":"Dialogue Scripts",
-    "path":"folders/Scripts/Dialogue Scripts.yy",
+    "name":"Dialogue_Scripts",
+    "path":"folders/Scripts/Dialogue_Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -9,12 +9,9 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Snowdin_NPCs",
-    "path":"folders/Objects/Overworld/Snowdin/Snowdin_NPCs.yy",
+    "path":"folders/Objects/NPCs/Snowdin_NPCs.yy",
   },
-  "parentObjectId":{
-    "name":"obj_interactable",
-    "path":"objects/obj_interactable/obj_interactable.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

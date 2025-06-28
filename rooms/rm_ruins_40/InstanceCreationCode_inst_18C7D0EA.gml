@@ -1,1 +1,0 @@
-descr_text = "tem_silly3"

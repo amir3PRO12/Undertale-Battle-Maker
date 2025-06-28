@@ -3,4 +3,4 @@ target_y = 150;
 
 target_rm = rm_snowdin_25;
 
-target_face = DIRECTION.Down;
+target_face = DOWN;

@@ -1,1 +1,0 @@
-descr_text = "rock_free"

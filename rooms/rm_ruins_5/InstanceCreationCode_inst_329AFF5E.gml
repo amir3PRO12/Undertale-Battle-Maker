@@ -1,1 +1,0 @@
-descr_text = "vegetoid_long_room"

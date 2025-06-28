@@ -1,5 +1,5 @@
 target_rm = rm_ruins_12;
-target_x = -128
-target_y = -319
+target_x = 465;
+target_y = 230;
 
-target_face = DIRECTION.Down;
+target_face = DOWN;

@@ -1,19 +1,9 @@
 if place_meeting(x, y, obj_player) and not instance_exists(obj_fade) && nicheCase == 0{
 	var inst = instance_create_depth(0, 0, -9999, obj_fade);
-	if target_x != -128 and target_y != -319
-	{
-	inst.target_x = target_x
-	inst.target_y = target_y
-	}
-	else
-	{
-	inst.target_x = obj_player.x
-	inst.target_y = obj_player.y
-	}
-	inst.target_rm = target_rm
-	inst.target_face = target_face
-	if is_special 
-	special()
+	inst.target_x = target_x;
+	inst.target_y = target_y;
+	inst.target_rm = target_rm;
+	inst.target_face = target_face;
 }
 else if(nicheCase == 1 && (place_meeting(x, y, obj_player) || nicheActive == true))
 {

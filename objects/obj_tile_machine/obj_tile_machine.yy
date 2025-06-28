@@ -6,8 +6,8 @@
   "name":"obj_tile_machine",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tile Puzzle",
-    "path":"folders/Objects/Tile Puzzle.yy",
+    "name":"Tile_Puzzle",
+    "path":"folders/Objects/Tile_Puzzle.yy",
   },
   "parentObjectId":{
     "name":"obj_wall",

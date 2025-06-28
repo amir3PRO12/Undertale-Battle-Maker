@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins_NPCs",
-    "path":"folders/Objects/Overworld/Ruins/Ruins_NPCs.yy",
+    "path":"folders/Objects/NPCs/Ruins_NPCs.yy",
   },
   "parentObjectId":{
     "name":"obj_interactable",
@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_player_chara_down",
+    "path":"sprites/spr_player_chara_down/spr_player_chara_down.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -16,13 +16,11 @@
     {"name":"inst_515CAE8","path":"rooms/rm_ruins_12/rm_ruins_12.yy",},
     {"name":"inst_1A9FC702","path":"rooms/rm_ruins_12/rm_ruins_12.yy",},
     {"name":"inst_3FFC0C42","path":"rooms/rm_ruins_12/rm_ruins_12.yy",},
-    {"name":"inst_1EE729D3","path":"rooms/rm_ruins_12/rm_ruins_12.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Player","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_3FFC0C42","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FFC0C42","objectId":{"name":"obj_ruins_npc_vegetoid","path":"objects/obj_ruins_npc_vegetoid/obj_ruins_npc_vegetoid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":128.0,},
-        {"$GMRInstance":"v2","%Name":"inst_1EE729D3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EE729D3","objectId":{"name":"obj_interaction_trigger","path":"objects/obj_interaction_trigger/obj_interaction_trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.117647,"scaleY":1.3571428,"x":489.94116,"y":180.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3FFC0C42","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FFC0C42","objectId":{"name":"obj_ruins_npc_vegetoid","path":"objects/obj_ruins_npc_vegetoid/obj_ruins_npc_vegetoid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":128.0,},
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_31BA1C52","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31BA1C52","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.875,"scaleY":2.4375,"x":160.0,"y":68.5,},
@@ -85,7 +83,7 @@
   "roomSettings":{
     "Height":340,
     "inheritRoomSettings":false,
-    "persistent":true,
+    "persistent":false,
     "Width":600,
   },
   "sequenceId":null,

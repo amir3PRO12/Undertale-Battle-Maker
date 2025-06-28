@@ -1,1 +1,0 @@
-image_index = base_image_index

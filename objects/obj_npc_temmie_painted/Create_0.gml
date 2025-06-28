@@ -1,4 +1,2 @@
-event_inherited()
-dialogue = [
-    dialog("tem_base", -1, 1, 1)
-];
+depth = -bbox_bottom;
+// Inherit the parent event

@@ -3,4 +3,4 @@ target_y = 255;
 
 target_rm = rm_snowdin_39;
 
-target_face = DIRECTION.Up;
+target_face = UP;

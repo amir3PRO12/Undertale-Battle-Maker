@@ -1,1 +1,0 @@
-descr_text = "middle_road_puzzle"

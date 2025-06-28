@@ -1,1 +1,0 @@
-descr_text = "froggit_ruins_rm25"

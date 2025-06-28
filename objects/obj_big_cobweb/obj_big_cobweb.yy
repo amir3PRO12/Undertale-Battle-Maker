@@ -1,10 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_big_cobweb",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_big_cobweb",
   "overriddenProperties":[],
@@ -13,8 +10,8 @@
     "path":"folders/Objects/Overworld/Ruins/Ruins_Object.yy",
   },
   "parentObjectId":{
-    "name":"obj_interactable",
-    "path":"objects/obj_interactable/obj_interactable.yy",
+    "name":"obj_sticky_wall",
+    "path":"objects/obj_sticky_wall/obj_sticky_wall.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

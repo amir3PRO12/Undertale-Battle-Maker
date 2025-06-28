@@ -1,2 +1,1 @@
-event_inherited()
-mouse_inside = 50
+depth = -bbox_bottom;

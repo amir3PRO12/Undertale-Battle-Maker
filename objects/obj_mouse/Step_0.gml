@@ -1,8 +1,8 @@
 var mouse_window_x = window_mouse_get_x();
 var mouse_window_y = window_mouse_get_y();
 
-x = floor(mouse_x);
-y = floor(mouse_y);
+x = mouse_x;
+y = mouse_y;
 
 if (window_has_focus() == false) {
   window_set_cursor(cr_default);

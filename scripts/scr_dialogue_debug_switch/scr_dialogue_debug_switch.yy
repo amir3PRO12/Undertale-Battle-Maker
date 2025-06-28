@@ -6,7 +6,7 @@
   "name":"scr_dialogue_debug_switch",
   "parent":{
     "name":"dialogue_scripts",
-    "path":"folders/Scripts/Dialogue Scripts/dialogue_scripts.yy",
+    "path":"folders/Scripts/Dialogue_Scripts/dialogue_scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

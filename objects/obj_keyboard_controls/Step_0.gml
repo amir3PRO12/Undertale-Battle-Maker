@@ -5,9 +5,7 @@ if (keyboard_check_pressed(vk_f1)){
 if (keyboard_check_pressed(vk_f2)){
 	room_restart()	
 }
-if (keyboard_check_pressed(vk_space)) {
-    trigger_textbox("the quick fox jumped over the lazy dogs", true, 1, voice_test, spr_mugshot_sans, true, true, false, fnt_sans);
-}
+
 if (keyboard_check_pressed(vk_f3) and Debug_Mode == false){
 	Debug_Mode = true;
 } else if (keyboard_check_pressed(vk_f3) and Debug_Mode == true){
@@ -62,22 +60,4 @@ if (keyboard_check_pressed(vk_f11) or keyboard_check_pressed(vk_f4)){
 	}else{
 		window_set_fullscreen(true);	
 	}
-}
-
-if Debug_Mode == true
-{
-	if (keyboard_check_pressed(vk_f6))
-	{
-	room_goto_previous()
-	obj_player.x =  200
-	obj_player.y =  200
-	}
-	if (keyboard_check_pressed(vk_f7))
-	{
-	room_goto_next()
-	obj_player.x =  200
-	obj_player.y =  200
-	}
-	if (keyboard_check_pressed(vk_f5))
-	room_goto(rm_ruins_entrance)
 }

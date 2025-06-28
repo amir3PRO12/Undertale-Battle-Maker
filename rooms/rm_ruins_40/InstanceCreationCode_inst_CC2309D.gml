@@ -1,1 +1,0 @@
-descr_text = "froggit_tem_room"

@@ -6,6 +6,7 @@ function input_init() {
 	key_run = new Keybind("key_run");
 	key_confirm = new Keybind("key_confirm");
 	key_cancel = new Keybind("key_cancel");
+    key_menu = new Keybind("key_menu");
 }
 function input_update() {
 	key_left.update();
@@ -14,6 +15,8 @@ function input_update() {
 	key_right.update();
 	key_run.update();
 	key_confirm.update();
+    key_cancel.update();
+    key_menu.update();
 }
 function input_refresh() {
 	keybinds_refresh();
@@ -21,6 +24,8 @@ function input_refresh() {
 	key_down.refresh();
 	key_up.refresh();
 	key_right.refresh();
-	key_run.update();
-	key_confirm.update();
+	key_run.refresh();
+	key_confirm.refresh();
+    key_cancel.refresh();
+    key_menu.refresh();
 }

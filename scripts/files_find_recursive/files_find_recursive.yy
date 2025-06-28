@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"files_find_recursive",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"files_find_recursive",
+  "parent":{
+    "name":"Loading_room",
+    "path":"folders/Rooms/Loading_room.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

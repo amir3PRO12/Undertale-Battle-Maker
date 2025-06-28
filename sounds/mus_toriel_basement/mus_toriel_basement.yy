@@ -12,8 +12,8 @@
   "duration":76.02213,
   "name":"mus_toriel_basement",
   "parent":{
-    "name":"Ruins",
-    "path":"folders/Musics/Undergrounds/Ruins.yy",
+    "name":"Musics",
+    "path":"folders/Musics.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":1.830023,
   "name":"mus_snowdin_sans_following_you",
   "parent":{
-    "name":"Events",
-    "path":"folders/Musics/Events.yy",
+    "name":"Musics",
+    "path":"folders/Musics.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

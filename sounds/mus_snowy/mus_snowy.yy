@@ -12,8 +12,8 @@
   "duration":102.302765,
   "name":"mus_snowy",
   "parent":{
-    "name":"Snowdin",
-    "path":"folders/Musics/Undergrounds/Snowdin.yy",
+    "name":"Musics",
+    "path":"folders/Musics.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

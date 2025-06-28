@@ -1,0 +1,1 @@
+descr_text = "three_points"

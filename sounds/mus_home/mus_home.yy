@@ -12,8 +12,8 @@
   "duration":123.01497,
   "name":"mus_home",
   "parent":{
-    "name":"Ruins",
-    "path":"folders/Musics/Undergrounds/Ruins.yy",
+    "name":"Musics",
+    "path":"folders/Musics.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

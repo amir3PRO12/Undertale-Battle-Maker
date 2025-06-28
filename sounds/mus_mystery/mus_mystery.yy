@@ -12,8 +12,8 @@
   "duration":42.987392,
   "name":"mus_mystery",
   "parent":{
-    "name":"Events",
-    "path":"folders/Musics/Events.yy",
+    "name":"Musics",
+    "path":"folders/Musics.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

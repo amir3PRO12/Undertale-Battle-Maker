@@ -2,7 +2,11 @@ target_x = 0;
 target_y = 0;
 target_rm = 0;
 
-target_face = 0;
+target_face = DIRECTION.Right;
+
+is_special = 0
+
+function special(){}
 
 ///nicheCase, use this variable in one off type of scenarios where you need to do something
 ///Unusual, like switch rooms with a different effect

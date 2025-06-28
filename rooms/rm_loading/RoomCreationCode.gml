@@ -1,1 +1,2 @@
-room_goto(rm_snowdin_25)
+lang_init();
+global.langdata = lang_deserialize();

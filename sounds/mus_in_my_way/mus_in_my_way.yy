@@ -12,8 +12,8 @@
   "duration":89.81769,
   "name":"mus_in_my_way",
   "parent":{
-    "name":"Events",
-    "path":"folders/Musics/Events.yy",
+    "name":"Musics",
+    "path":"folders/Musics.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

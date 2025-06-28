@@ -70,9 +70,12 @@ text_color2 = c_white
 text_color3 = c_white
 text_color4 = c_white
 
-language = "eng" 
+//language = "eng" 
+/* have to comment this out otherwise it wont compile
+ * doesnt matter since this object is unused anyways
+*/
 can_walk_while_dialogue = 0
-interact_object = obj_player //noone
+interact_object = undefined //noone
 dialogue_face_sprite = spr_toby_dog
 dialogue_face_sprite = spr_sans_dialogue_test
 dialogue_face_sprite = spr_nosprite
@@ -117,7 +120,7 @@ skip_spd = 5 //That kinda thing instead of instaskipping
 can_skip = 1
 auto_skip = 0
 text_length_temp = 0
-current_voice = snd_voice_test
+current_voice = voice_test
 chara_counter = 0
 debug_book_switch = 0
 

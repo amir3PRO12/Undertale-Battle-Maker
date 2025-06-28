@@ -8,9 +8,9 @@ textbox_glyph_correct("fnt_sans", nonletter_map, 8);
 textbox_glyph_correct("fnt_papyrus", letter_map, 11);
 textbox_glyph_correct("fnt_papyrus", nonletter_map, 11);
 
-textbox_glyph_correct("fnt_sans", "xn", 10);
-textbox_glyph_correct("fnt_sans", "jm", 6);
-textbox_glyph_correct("fnt_sans", "tk", 7);
+textbox_glyph_correct("fnt_sans", "wm", 10);
+textbox_glyph_correct("fnt_sans", "il", 6);
+textbox_glyph_correct("fnt_sans", "sj", 7);
 
 textbox_glyph_correct("fnt_papyrus", "DMCAHBG", 12);
 textbox_glyph_correct("fnt_papyrus", "Q", 14);

@@ -1,5 +1,17 @@
+var data = load_game_info();
+
+global.Run_Time = data.Time;
+start_runtime = global.Run_Time;
+timeoffset = current_time;
+
 //Fun Value Of The Entire Undertale/Deltarune World, This Will Tell What Happens At What Exact Time And What Happens To Something Else.
-global.Fun_Value = random(100);
+global.Fun_Value = data.FUN;
+
+obj_player.NAME = data.Name;
+obj_player.LV = data.Love;
+room_goto(data.Room);
+obj_player.x = data.PlayerX;
+obj_player.y = data.PlayerY;
 
 //Speedrun Run.
 global.Speedrun = false;

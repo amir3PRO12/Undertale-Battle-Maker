@@ -9,7 +9,29 @@ input_update();
 movedirx = override_movement(movedirx, key_left.held, key_right.held);
 movediry = override_movement(movediry, key_up.held, key_down.held);
 
-object_to_interact = instance_place(x + movedirx, y + movediry, obj_interactable);
+var curdirx = 0;
+var curdiry = 1;
+
+switch playerdir {
+    case DIRECTION.Left:
+        curdirx = -1;
+        curdiry = 0;
+        break;
+    case DIRECTION.Right:
+        curdirx = 1;
+        curdiry = 0;
+        break;
+    case DIRECTION.Up:
+        curdirx = 0;
+        curdiry = -1;
+        break;
+    case DIRECTION.Down:
+        curdirx = 0;
+        curdiry = 1;
+        break;
+}
+
+object_to_interact = instance_place(x + curdirx, y + curdiry, obj_interactable);
 
 // Prevents slowing down of hsp if against a wall vertically
 if (flat_meeting(x, y + movediry) || slope_meeting(x, y + movediry)) {
@@ -38,12 +60,16 @@ if (movediry == -1 && key_up.held && (flat_meeting(x, y - 1) || slope_meeting(x,
 } else { // Normal movement
     if (movedirx == 1) {
         sprite_index = spr_char_right;
+        playerdir = DIRECTION.Right;
     } else if (movedirx == -1) {
         sprite_index = spr_char_left;
+        playerdir = DIRECTION.Left;
     } else if (movediry == 1) {
         sprite_index = spr_char_down;
+        playerdir = DIRECTION.Down;
     } else if (movediry == -1) {
         sprite_index = spr_char_up;
+        playerdir = DIRECTION.Up;
     } else {
         image_index = 0;
         moving = false;

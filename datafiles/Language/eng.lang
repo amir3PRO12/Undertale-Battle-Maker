@@ -16,5 +16,10 @@ snowdinbear2_d3="I wouldn't know, I've never seen it before."
 
 froggit_base="Ribbit, ribbit. How to fight you? I don't get it."
 
+//Dialogue I wrote for the NPC I edited last night - DanIs
+randomguy_d1="Hey, have you heard of EarthBound?"
+randomguy_d2="You have? Great! It's my favorite video game."
+randomguy_d3="Let's talk again some time."
+
 save_base_d1="The placeholder text fills you with..."
 save_base_d2="Well, I'm not sure, but it's definitely not [c_red]Determination.[/c_red]"

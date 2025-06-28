@@ -9,9 +9,12 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins_NPCs",
-    "path":"folders/Objects/NPCs/Ruins_NPCs.yy",
+    "path":"folders/Objects/Overworld/Ruins/Ruins_NPCs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_interactable",
+    "path":"objects/obj_interactable/obj_interactable.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

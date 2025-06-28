@@ -1,0 +1,1 @@
+descr_text = "sign_ruins_spider_bakery2"

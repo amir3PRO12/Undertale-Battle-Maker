@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_check_shaking",
   "parent":{
-    "name":"Dialogue_Scripts",
-    "path":"folders/Scripts/Dialogue_Scripts.yy",
+    "name":"Dialogue Scripts",
+    "path":"folders/Scripts/Dialogue Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,5 +1,3 @@
-global.Run_Time = start_runtime + ((current_time - timeoffset) * 0.001);
-
 //Ruins
 switch(room){
 	//Ruins Entrance!

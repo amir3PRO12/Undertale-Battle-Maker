@@ -3,10 +3,10 @@ function textbox_glyph_correct(fontname, glyphs, seperation) {
         scribble_glyph_set(fontname, string_char_at(glyphs,i), SCRIBBLE_GLYPH.SEPARATION,8);
     }
 }
-function dialog(_langval, _mugshot, _speed, _sound, _font = fnt_main, _trigger_battle = false, _battle = noone) {
+function dialog(_text, _mugshot, _speed, _sound, _font = fnt_main, _trigger_battle = false, _battle = noone) {
     return {
         type: DIALOGTYPE.textbox,
-        text: language(_langval),
+        text: language(_text),
         mugshot: _mugshot,
         speed: _speed,
         sound: _sound,
@@ -52,13 +52,11 @@ function Textbox(dialog, asterisk, speed, sound, mugshot, outline = true, encoun
 		    if (audio_is_playing(snd)) audio_stop_sound(snd);
 		    audio_play_sound(snd, 0, false);
         }
-		if array_contains(punctuation, char) {
-			typist.__speed = 0.1 * typeSpeed;
-		} else if char != "\n" {
-			typist.__speed = 0.5 * typeSpeed;
+		if array_contains(punctuation, string_char_at(dialouge, max(_position - 1, 0))) {
+			typist.__speed = 0.05 * typeSpeed;
 		} else {
-            typist.__speed = 2;
-        }
+			typist.__speed = 0.5 * typeSpeed;
+		}
 	}
 	#endregion
 	
@@ -101,9 +99,6 @@ function Textbox(dialog, asterisk, speed, sound, mugshot, outline = true, encoun
 function trigger_textbox(dialog, asterisk, speed, sound, mugshot, disable_player = true, outline = true, encounter_trig = false, font = fnt_main) {
 	if (disable_player && instance_exists(obj_player)) obj_player.active = false;
 	array_push(global.textbox_array, new Textbox(dialog, asterisk, speed, sound, mugshot, outline, encounter_trig, font));
-}
-function trigger_saveprompt() {
-    instance_create(0, 0, obj_saveprompt);
 }
 function string_wrap(_string, _charWidth, _wrapWidth) {
     var space_pos = 0;

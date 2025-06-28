@@ -14,7 +14,4 @@ snowdinbear2_d1="Sometimes I wonder how the trees here grow."
 snowdinbear2_d2="There is no sun after all, right?"
 snowdinbear2_d3="I wouldn't know, I've never seen it before."
 
-froggit_base="Ribbit, ribbit. How to fight you? I don't get it."
-
-save_base_d1="The placeholder text fills you with..."
-save_base_d2="Well, I'm not sure, but it's definitely not [c_red]Determination.[/c_red]"
+froggit_base=Ribbit, ribbit. How to fight you? I don't get it."

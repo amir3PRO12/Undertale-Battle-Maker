@@ -52,6 +52,10 @@ if Debug_Mode == true{
 	object_set_visible(obj_object_handler, false);
 }
 
+if (keyboard_check_pressed(vk_f10)){
+	room_goto(rm_battle);
+}
+
 if (keyboard_check_pressed(vk_escape)){
 	game_end()	
 }
@@ -80,4 +84,9 @@ if Debug_Mode == true
 	}
 	if (keyboard_check_pressed(vk_f5))
 	room_goto(rm_ruins_entrance)
+}
+
+
+if (keyboard_check_pressed(vk_f10)) {
+    room_goto(rm_battle);
 }

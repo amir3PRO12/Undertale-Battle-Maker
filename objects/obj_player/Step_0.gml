@@ -6,8 +6,10 @@ middle_click = (mouse_check_button(mb_middle));
 
 input_update();
 
-movedirx = override_movement(movedirx, key_left.held, key_right.held);
-movediry = override_movement(movediry, key_up.held, key_down.held);
+movedirx = override_movement(movedirx, key_left, key_right);
+movediry = override_movement(movediry, key_up, key_down);
+
+if (obj_battle_handler.in_battle) { visible = false; return; }
 
 var curdirx = 0;
 var curdiry = 1;

@@ -95,10 +95,14 @@ if (!active) {
     image_index = 0;
 }
 
-if (object_to_interact != noone && key_confirm.pressed) {
+if (object_to_interact != noone && key_confirm.pressed && active && interact_buffer <= 0) {
     with (object_to_interact) {
         event_user(0);
     }
 }
 
 scr_collision();
+
+if (interact_buffer > 0) {
+    --interact_buffer;
+}

@@ -9,7 +9,7 @@ if (!textbox_active && array_length(global.textbox_array) > 0) {
 	}
 	t.update();
 	if (t.finished) {
-		if ((key_confirm.pressed || key_menu.held) /* && room != rm_battle*/) { // uncomment this when you make the battle system
+		if ((key_confirm.pressed || key_menu.held) && room != rm_battle) { // uncomment this when you make the battle system
 			current_textbox++;
 			if (current_textbox >= array_length(global.textbox_array)) {
 				textbox_active = false;

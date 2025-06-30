@@ -1,6 +1,6 @@
 function textbox_glyph_correct(fontname, glyphs, seperation) {
     for (var i = 0; i < string_length(glyphs); i++) {
-        scribble_glyph_set(fontname, string_char_at(glyphs,i), SCRIBBLE_GLYPH.SEPARATION,8);
+        scribble_glyph_set(fontname, string_char_at(glyphs,i), SCRIBBLE_GLYPH.SEPARATION, seperation);
     }
 }
 function dialog(_langval, _mugshot, _speed, _sound, _font = fnt_main, _trigger_battle = false, _battle = noone) {
@@ -31,7 +31,7 @@ function Textbox(dialog, asterisk, speed, sound, mugshot, outline = true, encoun
 	typist.in(speed, 0);
     typeSpeed = speed;
     var wrapWidth = width - ((mugshot != 0) * 48)
-	dialouge = asterisk ? string_wrap_asterisk(dialog, 8, wrapWidth) : string_wrap(dialog, 8, wrapWidth);
+	dialouge = asterisk ? string_wrap_asterisk(dialog, font, wrapWidth) : string_wrap(dialog, font, wrapWidth);
 	finished = false;
 	snd = sound;
 	typist.pause();
@@ -105,24 +105,19 @@ function trigger_textbox(dialog, asterisk, speed, sound, mugshot, disable_player
 function trigger_saveprompt() {
     instance_create(0, 0, obj_saveprompt);
 }
-function string_wrap(_string, _charWidth, _wrapWidth) {
+function string_wrap(_string, _font, _wrapWidth) {
     var space_pos = 0;
-    var ioff = 0;
-    var defaultCharWidth = _charWidth == -1;
     
+    draw_set_font(_font);
     for (var i = 1; i <= string_length(_string); i++) {
         var char = string_char_at(_string, i);
+        var _charWidth = string_width_scribble(char);
         
         if (char == "[" && string_char_at(_string, min(i + 1, string_length(_string))) != "[") {
             while (string_char_at(_string, i) != "]") {
                 ++i;
             }
             continue;
-        }
-             
-        
-        if (defaultCharWidth) {
-            _charWidth = string_width_scribble(char);
         }
         
         var pos = ((i - ioff) * _charWidth) + _charWidth;
@@ -138,25 +133,22 @@ function string_wrap(_string, _charWidth, _wrapWidth) {
     
     return _string;
 }
-function string_wrap_asterisk(_string, _charWidth, _wrapWidth) {
+function string_wrap_asterisk(_string, _font, _wrapWidth) {
     _string = string_concat("* ", _string);
     _wrapWidth -= 24;
     var space_pos = 0;
     var ioff = 0;
-    var defaultCharWidth = _charWidth == -1;
     
+    draw_set_font(_font);
     for (var i = 0; i <= string_length(_string); i++) {
         var char = string_char_at(_string, i);
+        var _charWidth = string_width_scribble(char);
         
         if (char == "[" && string_char_at(_string, min(i + 1, string_length(_string))) != "[") {
             while (string_char_at(_string, i) != "]") {
                 ++i;
             }
             continue;
-        }
-        
-        if (defaultCharWidth) {
-            _charWidth = string_width_scribble(char);
         }
         
         var pos = ((i - ioff) * _charWidth) + _charWidth;

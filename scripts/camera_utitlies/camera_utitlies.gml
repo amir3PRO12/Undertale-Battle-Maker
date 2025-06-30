@@ -46,6 +46,11 @@ function views_enable() {
         view_set_visible(argument[i], true);
     }
 }
+function views_disable() {
+    for (var i = 0; i < argument_count; i++) {
+        view_set_visible(argument[i], false);
+    }
+}
 function view_set_size(width, height) {
     view_set_wport(0, width);
     view_set_hport(0, height);

@@ -10,4 +10,5 @@ if (key_confirm.pressed) {
     save_game_manual();
     instance_destroy();
     obj_player.active = true;
+    obj_player.interact_buffer = 1;
 }

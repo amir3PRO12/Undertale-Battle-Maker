@@ -18,6 +18,7 @@ playerdir = DIRECTION.Down;
 
 movedirx = 0;
 movediry = 0;
+interact_buffer = 0;
 
 //Mouse Stuff
 left_click = (mouse_check_button(mb_left));

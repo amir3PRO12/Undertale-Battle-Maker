@@ -21,6 +21,14 @@ if (Owner == noone)
 }
 else
 {
-	x += 2 * Owner.movedirx;
-	y += 2 * Owner.movediry;
+	movedirx = Owner.movedirx
+	movediry = Owner.movediry
+	
+	if !collision_point(x+movedirx*sprite_width/2,y,obj_battle_wall_square,1,1)
+	x += 2 * movedirx
+	if !collision_point(x,y+movediry*sprite_height/2,obj_battle_wall_square,1,1)
+	y += 2 * movediry
+	
+	
 }
+

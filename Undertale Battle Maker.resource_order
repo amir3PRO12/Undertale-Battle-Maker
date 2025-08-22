@@ -1,4 +1,7 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Battle_walls","order":1,"path":"folders/Objects/Battle/Battle_walls.yy",},
+    {"name":"Battle_Walls","order":1,"path":"folders/Sprites/Battle_Mode/Battle_Walls.yy",},
+  ],
   "ResourceOrderSettings":[],
 }

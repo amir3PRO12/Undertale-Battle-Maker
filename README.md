@@ -25,3 +25,12 @@ Anyway. I'm Gonna Head Out. Hopefully We Will See Each Other Again Dusty. I Love
 
 Sign: "amir3PRO12" Or As You May Know. "True!Chara"
 
+
+
+...
+I Am Still Waiting And It Is Been 2 Days Later Since I Have Sent This Message To You.
+
+Hopefully....... You Will See This....
+
+.... Hopefully.....
+
